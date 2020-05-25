@@ -1,0 +1,784 @@
+<resources>
+    <string name="app_name">The Man and the Machine</string>
+    <string name="start">Start</string>
+    <string name="continue_game">Continue</string>
+    <string name="previous_Games">Previous Games</string>
+    <string name="credits">Credits</string>
+
+    <string name="title"><i>The Man and the Machine</i></string>
+
+    <string name="credits_one">Written and created by:</string>
+    <string name="credits_two">Brian</string>
+    <string name="credits_three">Hi. This is my first app. It is inspired by, and hopefully not <i>too</i> derivative of, the absolute gem of a game called Seedship whose link can be found below.</string>
+    <string name="credits_four">Thanks for playing!</string>
+
+    <string name="twitter_share">Share on Twitter</string>
+    <string name="insta_share">Share on Instagram</string>
+    <string name="fb_share">Share on Facebook</string>
+
+
+    <string name="seedship">Seedship</string>
+    <string name="test_link">"<a href='http://play.google.com/store/apps/details?id=com.johnayliff.seedship'><u>Seedship</u></a>"</string>
+
+    <string name="next_day">Continue</string>
+
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string name="active_game">This will overwrite your current game. Are you sure you wish to proceed?</string>
+
+    <string name="skip_intro">"Skip Intro"</string>
+
+    <string name="stat_percentage">%1$s%2$s</string>
+    <string name="percent_sign">%</string>
+
+    <string name="machine_header">The Machine</string>
+    <string name="man_header">The Man</string>
+
+    <string name="strength">Strength:</string>
+    <string name="dexterity">Dexterity:</string>
+    <string name="intelligence">Intelligence:</string>
+    <string name="loyalty">Loyalty:</string>
+    <string name="beauty">Beauty:</string>
+
+    <string name="strength_creator">Strength Infuser:</string>
+    <string name="dexterity_creator">Dexterity Animator:</string>
+    <string name="intelligence_creator">Intelligence Designer:</string>
+    <string name="loyalty_creator">Loyalty Inculcator:</string>
+    <string name="beauty_creator">Beauty Sculptor:</string>
+
+    <string name="building_creature">Building…</string>
+
+    <string name="unknown_stat">Unknown</string>
+
+    <string name="stats_reveal">Flux Injections:</string>
+    <string name="use_injection">Use Injection</string>
+
+    <string name="injection_result">The flux particles ooze into the placental chamber, connecting creature to machine, invigorating broken parts, and creating something out of nothing.</string>
+
+    <string name="post_injection">The flux particles have performed their function well, and you are the wiser for it.</string>
+
+    <string name="destroy_creature">Activate Incinerator</string>
+    <string name="create_creature">Summon Creature</string>
+    <string name="confirm_creature">Yes, release the beast!</string>
+    <string name="cancel_creature">On second thought…</string>
+    <string name="warning_dialogue">Are you sure you wish to create this monstrosity? It will require all available resources, and no other creations will be possible!
+    </string>
+
+    <string name="quirks">Quirks:</string>
+    <string name="none">None</string>
+
+    <string name="infected"><i>Infected</i></string>
+    <string name="insane"><i>The Insane Man</i></string>
+    <string name="broken"><i>The Broken Machine</i></string>
+    <string name="machine_gone">Seeing your life\'s work reduced to naught but a broken lottery of failing parts, you allow hopelessness to envelop you, retreating with a torrent of tormented tongues into the inner recesses of your mind.\n\nWith the measures taken to prevent to unauthorized entry into your lair, there is simply no chance of anyone finding your catatonic form before it expires. </string>
+
+    <string name="endUpgrade"><i>Upgraded</i></string>
+    <string name="endDowngrade"><i>Downgraded</i></string>
+
+    <string name="launch_success">Launch Success:</string>
+    <string name="end_territory">Terror Inflicted:</string>
+    <string name="end_support">Support Reaped:</string>
+    <string name="home">Home:</string>
+    <string name="end_scenario">Ending:</string>
+    <string name="total_score">Total Score:</string>
+    <string name="end_rank">Final Rank:</string>
+    <string name="date_header"><b>Date</b></string>
+    <string name="rank_header"><b>Rank</b></string>
+    <string name="score_header"><b>Score</b></string>
+
+    <string name="free">remain free</string>
+    <string name="prison">are unable to remain free</string>
+
+    <string name="final_rank">Final Rank:</string>
+
+    <string name="highscore_heading"><b>Memoirs of Bygone Lives</b></string>
+
+    <string name="end_one">%1$s </string>
+    <string name="end_two">%1$s %2$s </string>
+    <string name="end_two_par">%1$s\n\n%2$s </string>
+    <string name="end_three">%1$s\n\n%2$s\n\n%3$s </string>
+    <string name="end_three_noPar">%1$s %2$s %3$s  </string>
+    <string name="end_four">%1$s\n\n%2$s\n\n%3$s\n\n%4$s </string>
+    <string name="end_four_noPar">%1$s %2$s %3$s %4$s </string>
+    <string name="end_five">%1$s\n\n%2$s\n\n%3$s\n\n%4$s\n\n%5$s</string>
+    <string name="end_six">%1$s\n\n%2$s\n\n%3$s\n\n%4$s\n\n%5$s\n\n%6$s</string>
+    <string name="end_arrays">%1$s %2$s %3$s %4$s\n\n%5$s</string>
+
+    <string name="end_five_noPar">%1$s%2$s%3$s%4$s%5$s</string>
+    <string name="end_six_noPar">%1$s %2$s %3$s %4$s %5$s %6$s</string>
+    <string name="end_seven_noPar">%1$s %2$s %3$s %4$s %5$s %6$s %7$s</string>
+    <string name="end_eight_noPar">%1$s %2$s %3$s %4$s %5$s %6$s %7$s %8$s</string>
+
+    <string name="dead">Dead</string>
+
+    <string name="creature_stats"><i>On this day, the creature known as %1$s, in tandem with its creator and with nimble fortitude did strike bloody terror into the hearts of %2$s people, whilst through marriage of beauty and guile win the blessings of %3$s (per post-rampage non-partisan polling)</i>.</string>
+    <string name="creature_stats_two"><i>On this day, the creature known as %1$s, did attempt with valiance and bravery to carry out its master\'s bidding. Alas, its charge was cut short by enemies about with slings and arrows shot true.</i></string>
+
+    <string name="end_poem">Can death be sleep, when life is but a dream,\nAnd scenes of bliss pass as a phantom by?\nThe transient pleasures as a vision seem,\nAnd yet we think the greatest pain\'s to die.\n\nHow strange it is that man on earth should roam,
+     \nAnd lead a life of woe, but not forsake\nHis rugged path; nor dare he view alone\nHis future doom which is but to awake.</string>
+    <string name="keats">-John Keats</string>
+
+
+    <string name="bad_fire">Gads! Though it harnesses the power of a trillion PowerPoint lasers, the incinerator cannot quite seem to eat through the hodgepodge of metals, fabric, and synthetic skin that constitute this wretched creation. The smoke and smell of charred resins is fast becoming untenable in your precisely ventilated lair, and you must act quickly to remedy this.\n\nYou can either seal the incinerator and vent the outputs, which would unleash a very noticeable plume party of toxic vapors into the air, or take care of the problem the old fashion way, with a chainsaw and elbow grease. </string>
+    <string name="fire_choice_one">Vent the incinerator</string>
+    <string name="fire_choice_two">Get your hands dirty</string>
+    <string name="fire_one_result">You flip a set of switches, sealing the incinerator\'s titanium doors and fully venting its outward bound exhausts. Though a potentially fatal danger is averted, you can practically feel the prying gaze of the outside world upon you. </string>
+    <string name="fire_two_result">Not content to advertise your devious machinations to the world, you grab a Ne\'er-de-Break chainsaw and proceed to "get hacking," as the kids would say. Manual labor has never been your strong suit, and the task proceeds at a maddeningly difficult pace.\n\nWhen the failed creation is at last sufficiently sliced into flammable pieces, you are left exhausted and not a little bit unstrung.</string>
+    <string name="fire_one_result_two">Alas, with the eyes of the world upon you already, there is precious little further attention that an extra ton of poisonous clouds will invite. This bit of salience is as disquieting as it is dire, and you are none the better for it. </string>
+
+    <string name="sanity">Sanity:</string>
+    <string name="endurance">Endurance:</string>
+    <string name="wealth">Wealth: </string>
+    <string name="anonymity">Anonymity:</string>
+
+    <string name="generator_scanner">Generator Scanner</string>
+
+    <!--Strings for Choice Buttons-->
+
+    <!--Strings to choose component failure-->
+    <string name="strength_fail">Allow the Strength Infuser to starve.</string>
+    <string name="dexterity_fail">Allow the Dexterity Animator to starve.</string>
+    <string name="intelligence_fail">Allow the Intelligence Designer to starve.</string>
+    <string name="loyalty_fail">Allow the loyalty Inculcator to starve.</string>
+    <string name="beauty_fail">Allow the Beauty Sculptor to starve.</string>
+    <string name="saving_grace">Steel yourself with the resolve of a thousand stags and WILL a saving grace into action. </string>
+
+    <!--Strings to choose component upgrade-->
+    <string name="strength_upgrade">Upgrade the Strength Infuser.</string>
+    <string name="dexterity_upgrade">Upgrade the Dexterity Animator</string>
+    <string name="intelligence_upgrade">Upgrade the Intelligence Designer</string>
+    <string name="loyalty_upgrade">Upgrade the loyalty Inculcator </string>
+    <string name="beauty_upgrade">Upgrade the Beauty Sculptor</string>
+    <string name="upgrade_complete">The very walls quake as %1$s scream painful deaths, %2$s cry with tormented agony, and the blood of purity incarnate is spilt like so much spoiled milk. At last, The %3$s hums brighter and stronger.</string>
+
+    <string name="str_upgrade_text">Stronger, tougher, more muscular! No longer will your creation be relegated to the weakest of the weak. It will, at the very least, rise above the dregs of the abomination food chain.</string>
+    <string name="dex_upgrade_text">If being burnt in the sad space between inertia and sentience can teach one anything, it is how to move faster than an uphill rolling sloth. Your creation will be guaranteed a minimum speed and agility. </string>
+    <string name="temp_upgrade_text">A constant state of rejection has been found, in adolescents, to contribute to an array of maladaptive traits and behaviors, not the least of which is general intelligence. Luckily for you, your abomination-in-training is not an adolescent. It will be assured a base level of emotional stability.</string>
+    <string name="obed_upgrade_text">One would assume that continuous deaths by countless licks of flame would engender a state of contempt, at best. Fortunately, the laws of causal personality inheritance are the least egregious being broken in this place, and as such your creation can now enjoy a permanent state of not-all-consuming-truculence.</string>
+    <string name="char_upgrade_text">Though general beauty is in the eye of the beholder, manufactured beauty is the only horse a savvy gambler puts money on. By the time your abomination goes forth to conquer the world, you hope that it will be so charming that none will notice the hideous assortment of unholy bits that makes up its component parts. At the very least, you can ensure it does not terrify the elderly until it\'s ready.</string>
+
+    <string name="end_obed_success">Cattle prods, dazzling rhetoric and abject begging, oh my! You are able to persuade the creature to be more receptive to your wishes.</string>
+    <string name="end_obed_failure">Don\'t sell the farm just yet, Wilbur. You fumble over your arguments, and physical coercion is met with a dead stare. The creature remains unpersuaded.</string>
+    <string name="end_obed_failure_two">Years of near total isolation and a natural penchant for misanthropy and dour disposition have left you the persuasive skills of a bubonic rat. The creature is not amused, and becomes even more obstinate in reaction to your bumbling oratory attempts.</string>
+    <string name="end_obed_failure_three">Perhaps talking smack about the creature\'s mom, as nonsensical and sort of self-deprecating as it is, is not the best course of action. The creature is pushed over the edge and attacks!</string>
+    <string name="end_obed_decline">You bow to humility, choosing the safer course.</string>
+
+    <string name="vocalist_good">As it belts out a tune for the ages, the lovely melodic symphony of your creature\'s voice is soothing on your frazzled nerves.  </string>
+    <string name="vocalist_bad">The creature lets loose with a barrage of cacophonous wails, plaguing your already frazzled nerves. </string>
+    <string name="reiki_good">The creature\'s internal mastery of mysticism has it exude a calming presence, which is passed onto you.</string>
+    <string name="reiki_bad">The creature doesn\'t quite \"get\" the gist of mysticism, and the stressful internal struggle exudes an unnerving energy, which passes on to you.</string>
+    <string name="berserk_good">The creature retains a masterful control of its pent up demons, and is stronger than it first appears. </string>
+    <string name="berserk_bad">The creature retains poor control of its inner demons, and will be prone to wiley, spastic outbursts that hurt its dexterity.</string>
+    <string name="swoll_good">The creature has emerged with way more muscle mass than anticipated, and this extra buffness will aid its overall strength.</string>
+    <string name="swoll_bad">The creature has cultivated all the wrong muscle groups in great disproportion, and these unwieldy appendages will server to hinder its overall dexterity.</string>
+    <string name="talker_good">The creature happily accepts a rusty copper figurine that might be Jesus, and a pile of Steel Reserve bottle caps. It purrs with increased devotion.</string>
+    <string name="talker_bad">The creature apparently watched several seasons of <i>Entourage</i> in the metallic womb, and is unhappy about doing your bidding without pay.</string>
+    <string name="buoyant_good">The creature has an extra bounce in its step that will aid its overall dexterity.</string>
+    <string name="buoyant_bad">The creature is, as the kids say, a spaz. Its uncontrolled bouncy buoyancy will hinder its overall dexterity.</string>
+    <string name="biblio_good">Your creature\'s constant of perusal of high brow literature in the womb has boosted its overall intelligence.</string>
+    <string name="biblio_bad">Unfortunately, all of the <i>National Enquirer</i> and <i>Weekly World News</i> absorbed in the womb has made your creature quite a bit dumber.</string>
+    <string name="exhibit_good">The creature is simply glad for the opportunity to be seen, and you can tell it is thankful to you.</string>
+    <string name="exhibit_bad">The creature is vexed that despite the attention it will be getting, the expedition is clearly about you, and it you can tell it resents you for that.</string>
+
+
+    <string name="choice_one_yes">Divert the resources.</string>
+    <string name="choice_one_no">Let the damage occur.</string>
+    <string name="choice_two_yes">Choose the %1$s.</string>
+    <string name="choice_three_yes">Divert the flow</string>
+    <string name="choice_eighteen_yes">Attempt the patch.</string>
+    <string name="choice_four_yes">Into the fray!</string>
+    <string name="choice_four_no">Just take your Flintstones vitamins.</string>
+    <string name="choice_five_save">Make a heroically foolhardy attempt to prevent damage.</string>
+    <string name="choice_six_yes">Sure. What\'s the harm?</string>
+    <string name="choice_six_no">Homie don\'t play that game.</string>
+    <string name="choice_seven_yes">Yes, because I am smarter than science.</string>
+    <string name="choice_seven_no">How about not?</string>
+    <string name="choice_eight_yes">It must be done.</string>
+    <string name="choice_eight_no">I will fight the urge!</string>
+
+    <string name="choice_ten_yes">Yes, this will surely help.</string>
+    <string name="choice_ten_no">Not today.</string>
+    <string name="choice_eleven_yes">What a splendid idea.</string>
+    <string name="choice_eleven_no">Seems safer just to take the hit.</string>
+    <string name="choice_twelve_yes">Sure. Seems foolproof.</string>
+    <string name="choice_twelve_no">We will not be doing that.</string>
+    <string name="choice_thirteen_yes">Once more into the breach!</string>
+    <string name="choice_thirteen_no">Let\'s sit this one out.</string>
+    <string name="choice_fourteen_yes">Sure. What could go wrong?</string>
+    <string name="choice_fourteen_no">Just pay the bill.</string>
+    <string name="choice_fifteen_yes">Lips to lungs gets it done.</string>
+    <string name="choice_fifteen_no">Let them wear themselves out.</string>
+    <string name="choice_sixteen_yes">Slip some cash under the door.</string>
+    <string name="choice_sixteen_no">Release the bees!</string>
+    <string name="choice_seventeen_yes">Grab it while it\'s fresh.</string>
+    <string name="choice_seventeen_no">Momma raised you better than that.</string>
+    <string name="choice_twenty_yes">Divert the power.</string>
+    <string name="choice_twenty_no">No, the risk is too great.</string>
+    <string name="choice_twentyOne_yes">Definitely. What could go wrong?</string>
+    <string name="choice_twentyOne_no">You haven\'t need of such trifles.</string>
+    <string name="choice_twentyTwo_yes">It would seem rude not to.</string>
+    <string name="choice_twentyTwo_no">How about not?</string>
+    <string name="choice_twentyThree_yes">Yes, embrace the sound.</string>
+    <string name="choice_twentyThree_no">No. This memory lane is paved with potholes.</string>
+    <string name="extra_one_yes">To arms!</string>
+    <string name="extra_one_no">What? No, thanks.</string>
+    <string name="extra_two_yes">Yes, sounds lovely.</string>
+    <string name="extra_two_no">Ha. Hahaha. No.</string>
+    <string name="extra_three_yes">Why, I\'d be a fool not to.</string>
+    <string name="extra_three_no">No, thanks.</string>
+    <string name="extra_eighteen_yes">Sure, dust off the ol\' boy.</string>
+    <string name="extra_eighteen_no">Isn\'t there a reason it\'s locked away?</string>
+    <string name="extra_five_yes">Fine, fiend! The bargain is struck!</string>
+    <string name="extra_five_no">No! Away with you, caricature!</string>
+    <string name="extra_four_yes">Yes, strike the deal!</string>
+    <string name="extra_four_no">Begone, Mammon!</string>
+    <string name="extra_seven_yes">It must be done.</string>
+    <string name="extra_seven_no">Nah. Medicine is just more fake news.</string>
+    <string name="extra_eight_yes">Well, okay.</string>
+    <string name="extra_eight_no">No way!</string>
+    <string name="extra_yes">Choose the %1$s.</string>
+    <string name="extra_ten_yes">Submit.</string>
+    <string name="extra_ten_no">Fight it!</string>
+    <string name="extra_eleven_no">No, thanks.</string>
+    <string name="extra_eleven_yes">If we must.</string>
+    <string name="extra_twelve_yes">Choose the %1$s.</string>
+    <string name="extra_twelve_no">Choose the %1$s.</string>
+    <string name="extra_thirteen_yes">Sure!</string>
+    <string name="extra_thirteen_no">Nah.</string>
+    <string name="str_wealth">Choose the Strength Infuser.</string>
+    <string name="dex_wealth">Choose the Dexterity Animator.</string>
+    <string name="int_wealth">Choose the Intelligence Designer.</string>
+    <string name="loy_wealth">Choose the Loyalty Inculcator.</string>
+    <string name="bea_wealth">Choose the Beauty Sculptor.</string>
+    <string name="wealth_zero_result">You wind up with a sizable emergency fund, though it is a tiny fraction of what you could get from a rogue dictator were you not so short on time. </string>
+    <string name="choice_post_upgrade">Risk the %1$s.</string>
+
+
+    <string name="zero_endurance">Alas, your crusty husk that at the best of times resembles an anemic scarecrow has reached the threshold of no return. With barely the strength to wipe the spittle from your droopy jowls, let alone continue to operate a mechanical sophisticant of this magnitide, it appears all is lost.\n\nBut wait! The Auto-Compiler! Oh, dad, you did think of everything. Except for your child\'s emotional needs, but that is of no importance now. The Auto-Compiler will, at a specified point in time, release your creature into the world without supervision. Quick - before the narcoleptic rash flares up again - pick a day! </string>
+
+    <string name="zero_endOne">Tomorrow!</string>
+    <string name="zero_endTwo">Two days hence!</string>
+    <string name="zero_endThree">Three, three, three!</string>
+    <string name="zero_endOneResult">Why wait for more things to go wrong? Before the warm embrace of nap time sets in, you set the compiler to launch your madness into the world. </string>
+    <string name="zero_endTwoResult">Not too hot and not too cold. This temporal porridge is just right! Before the warm embrace of nap time sets in, you set the compiler to launch your madness into the world.</string>
+    <string name="zero_endTThreeResult">You aren\'t a former member of Forbes\' 100 Wealthiest Mad Scientists for nothing - you like to get your value\'s worth from things. Three days it will be! Before the warm embrace of nap time sets in, you set the compiler to launch your madness into the world. </string>
+    <string name="zero_endWait">As you flit in and out of consciousness, your Auto-Compiler attempts to create another monstrosity. Whatever it is, however, will soon be turned into a smoldering wreck. Not the best design on this thing, huh? Rather wasteful, I would say. </string>
+    <string name="zero_endWaitTwo">Another woozy day, another wasted creature…</string>
+    <string name="zero_endLaunch">The day is here! You\'ve managed to prop yourself up against one of your less jagged vertical surfaces, watching with deep trepidation as your Auto-Compiler does its super sophisticated thing.\n\nAt last, a final iteration of your creature is formed! This will have to be the one.</string>
+    <string name="zero_end_nextDay">Fade into you…</string>
+
+    <string name="zero_san">Oh, dear. You have reached the point where your insanity is no longer the playful <i>One Flew Over the Cuckoo\'s Nest</i> kind, but rather the catching-and-impaling-rodents-together-in-a-bid-to-create-a-super-rodent kind. See the difference?\n\nNo longer can you comprehend the complexity of the machine in front of you. Rather, it is a jumble of levels, symbols, and stale meatloaf.</string>
+    <string name="zero_san_injection">It seems much more fun to inject the liquid into yourself, and though this gives your skin a healthy green glow, it does little to advance your understanding of this whole mess.</string>
+
+
+    <string name="zero_anon">Sadly, you have made such a ruckus during this whole ordeal that if the word \"incognito\" had not won you the 4th grade spelling bee, no one would believe you knew its meaning.\n\nWith no anonymity left, the brass are knocking down your door. Your options are limited. Perhaps some money slipped under the door would grease a few palms?</string>
+    <string name="anon_zero_yes">Sure. What\'s left to lose?</string>
+    <string name="anon_zero_no">Ah, forget it. What\'s the point?</string>
+    <string name="amon_zero_noBribe">Yielding to despair, you let fate do its thing.\n\nYour door is blown to bits and lasers point at all your parts. With not even a failed creation to act as leverage, you make for a sorry target indeed, and this particular band of ruffians does not like prisoners. You are dead.</string>
+    <string name="anon_bribe_success">You scrounge up as much cash, credit chips and bank numbers as you can while under the literal gun and stuff them through the sealed laboratory equivalent of a mail slot, hoping it does the trick.\n\nAfter a few moments, your Zoom-O surveillance system shows all the scary people sauntering out, but not before their leader looks into the camera and mouths, \"We\'ll be back.\" Thanks, Arnie. You\'ve bought yourself another day, tops.</string>
+    <string name="anon_bribe_failure">You scrounge up as much cash, credit chips and bank numbers as you can while under the literal gun and stuff them through the sealed laboratory equivalent of a mail slot, hoping it does the trick.\n\nYour Zoom-O surveillance system shows the scary people happily stuffing your wealth into their heavily-pocketed military uniforms. Their leader then looks up at the camera, grins a shining set of veneers, and proceeds to flip you off. It appears your bribe has not worked.\n\nYour door is blown to bits and lasers point at all your parts. With not even a failed creation to act as leverage, you make for a sorry target indeed, and this particular band of ruffians does not like prisoners. You are dead.</string>
+
+
+    <string name="anon_bribe_broke">Unfortunately, you just don\'t have enough worth taking.\n\nYour door is blown to bits and lasers point at all your parts. With not even a failed creation to act as leverage, you make for a sorry target indeed, and this particular band of ruffians does not like prisoners. You are dead.</string>
+
+    <string name="anon_bribe_dead">Your door is blown to bits and lasers point at all your parts. With not even a failed creation to act as leverage, you make for a sorry target indeed, and this particular band of ruffians does not like prisoners.\n\nYou are dead. </string>
+
+    <string name="wealth_zero">With no money to pay for daily essentials, you are forced to pawn off some of your machine\'s components. Sad.</string>
+
+    <!--Strings for daily creature rolls-->
+    <string name="daily">The day is long, and the night longer still. At last it comes - the moment of illumination! The %1$s on the %2$s %3$s, indicating <i>something</i> is being %4$s. After what feels like an eternity, %5$s can be heard, and the object of creation flickers into sight.</string>
+
+    <!--Choice Events. Run cases 0-9-->
+    <string name="choice_one">Gadzooks! A %1$s %2$s %3$s from %4$s. Checking the readouts, you are informed the %5$s is %6$s.\n\nThe terribly esoteric nature of the beast and the rarity of parts precludes a guaranteed fix, and your options are limited. You may be able to divert enough resources toward repairing the errant system, though that will likely damage the %7$s instead.
+    </string>
+    <string name="choice_two">A %1$s %2$s %3$s from %4$s. Dear Jobeker! It seems that both the %5$s and %6$s are %7$s. Much like Solomon of old, you must decide who lives and who dies.</string>
+    <string name="choice_three">Normally, it\'s considered good scientific practice to throw as much power into whatever one is working on without regard to consequence. In this particular case though, it may have backfired.\n\nAbnormal levels of %1$s currents are detected racing down the %2$s. This excessive energy will certainly damage the %3$s if it continues. You could divert the electrical flow into %4$s, though the energy surge will not be subtle and will likely draw attention to your evil doings.
+    </string>
+    <string name="choice_five">It\'s feeding time! All of your machine components require a very special diet of plutonium, anthrax, asbestos, and organic non-pasteurized milk. Unfortunately, you forgot to order enough for the whole family. One of your parts will have to go without, and that will not fare well for it.</string>
+    <string name="choice_four">%1$s You\'ve dropped your %2$s pills in the %3$s of the %4$s. Trying to extricate the spiked bottle (why is it spiked?) with the only object immediately available, your %5$s, risks damaging a vital component. But man, you really need those pills.</string>
+    <string name="choice_six">Alas, you have been so distracted by your favorite YouTube clips of half-%1$s super mutants hunting half-%2$s mutants that you\'ve neglected the %3$s!\n\nThe emotional trauma of neglect aside, its physical situation is dire. You <i>might</i> be able to avert damage by appropriating some parts from other components, though you know what mother might have said about theft had she not been a kleptomaniac.</string>
+    <string name="choice_seven">Walnuts! You\'ve knocked over your rejuvenation juice again! Its sickly viscous texture does wonders for coating your perforated innards, but is less kind to the machinery in front of you. Sensors beep wildly, and it appears that damage to the %1$s is impending. Would you like to try injecting bleach into the affected area?</string>
+    <string name="choice_eight">The voices are back. Burning through your mind like field of hippie draft cards, they compel you to act.\n\nFortunately, much of your electricity grid runs through a local community center, and you could channel some of your machine\'s power into blowing up the group of %1$s that meet there weekly. That should satisfy the bloodlust, though the diversion of power might damage one of your components.</string>
+
+
+    <!--Second tier of choices, roll to avoid negative. Roll cases 10-19.-->
+    <string name="choice_ten">Force of time, force of wear. Your head splits sideways with sleep and sustenance deprived agony. There is %1$s called <i>%2$s</i> that you learned long ago but never sufficiently practiced. Would you like to try it?
+    </string>
+    <string name="choice_eleven">Gads! The %1$s has developed %2$s and is threatening to siphon some of your offshore wealth to pay for its grid therapy! Is this even real life?\n\nAs a former psychology major, you may be able to talk some sense into the thing, though your skills are quite rusty.</string>
+    <string name="choice_twelve">The %1$s is sick and tired of being overworked, unappreciated, and paid in bottle caps. It roars its discontent, shaking your walls and calling no small amount of attention to your evil plans.\n\nYou may be able to quiet its demands with empty promises of trinkets and swamp drainage, though the effort may take a lot out of you.</string>
+    <!--Roll for no loss choice events.-->
+    <string name="choice_thirteen">Gadzooks! A %1$s of %2$s has somehow gotten into the %3$s, threatening the %4$s! You may be able to draw them out with your trusty %5$s, though that would risk damaging something else.</string>
+    <string name="choice_fourteen">With all the chaos surrounding your day to day endeavors, you have forgotten to pay your %1$s bill! And by \"pay,\" we mean divert massive, small-country-sustaining funds from offshore corporate dummy accounts.\n\nYour operation requires a very delicately balanced set of books, lest the whole thing risk crashing down. You can attempt to haggle with the mafia middle men who streamline the process, or simply pay an exorbitant late fee.</string>
+    <string name="choice_fifteen">Your %1$s is calling on line %2$s. They are not one to take \"no\" for an answer, and despite your callous, destructive, downright evil machinations, you always did have a soft spot for family.\n\nThe work you are doing at the moment is highly crucial, however, and interrupting it is certain to damage something. You may be able to talk your away into an early release, though with your %3$s that always carries a risk.</string>
+    <string name="choice_sixteen">A rapping at your chamber door! How on Gazorpazorp\'s scorched earth did anyone find your hidden enclave? Your Zoom-O surveillance unit shows a %1$s of %2$s waiting patiently outside. Tenacious bastards, those ones.\n\nWell, you need them gone one way or the other. Bribes or bees, which will it be?</string>
+    <string name="choice_seventeen">The sleepless nights drag on, and you can feel your body paying the price. An experimental concoction of %1$s straight out of %2$s has recently come to your attention, and while it comes with free home delivery and an anonymity guarantee, it is obscenely expensive. Oh, what to do? </string>
+    <string name="choice_eighteen">A flurry of %1$s %2$s are flying off the %3$s. At this rate, the %4$s will be damaged soon.\n\nYou feel as if you could patch up the damage, though it will require a very expensive piece of black market uranium, drone-dropped by <i>Amazon Prime\'s</i> dark web subsidiary, <i>Amazon Crime</i>.\n\nYou <i>may</i> have a credit from the %5$s you returned last month. Anyway, no time to check!</string>
+
+    <!--Fourth tier, roll for positive-, Run cases 20-29-->
+    <string name="choice_twenty">The %1$s that you are tapping is currently supplying you with more power than necessary at the moment. You may be able to repair one of your construction components by diverting some of the power to an insufficiently tested %2$s, if you dare.</string>
+    <string name="choice_twentyOne">After another endless expanse of time in a seemingly infinite loop of Sisyphean exertion, you happen to spy %1$s affectionately titled %2$s\n\nOh, how you long for the days when your hobbies were confined to Facebook wars, small group torture and a good book. Perhaps revisiting the latter would be rejuvenating.</string>
+    <string name="choice_twentyTwo">Another day, another several million dollars in illegally laundered cash. You are deep in thoughts and prayers, minding your own world-dominating business, when you suddenly feel an unsettling %1$s near your %2$s.\n\nWhat\'s that, %3$s? You  have created a new %4$s for me to try? Oh, lovely, you shouldn\'t have! Oh, you would like me to test it right now?</string>
+    <string name="choice_twentyThree">An old-timey musical hiss emanates from your %1$s. You do not own or possess %2$s, though this fact disturbs you less than you would expect it to. The sound hearkens back to a long-forgotten %3$s. Memories flood past in an unbridled wash of nostalgia, softening your thick skin and kindling what the kids would call \"emotional availability.\"\n\nFor a brief moment, your eyes meet the mutant mess of miscreant monstrosity that oozes in various gel-like states all around you. It is a heartfelt, touching moment, that you may elect to explorer further.</string>
+
+    <!--Non-choice Events. Roll cases 30-39.-->
+    <string name="event_one">Distress sirens blare like spastic foghorns from all corners of the room as %1$s %2$s out of the %3$s. You try to react, but are too late, and the %4$s is damaged. </string>
+    <string name="event_two">Your palms are sweaty, your head grows heavy, and mom isn\'t making anymore spaghetti. Not since the accident. The inhumane, exertive pressures of your burden have notched another victory against your %1$s.
+    </string>
+    <string name="event_three">An anguished cry pours forth from the incinerator. Wretched beast - it was supposed to be dead! Burnt! Annihilated!\n\nThe screams are inhuman, obviously, both in pitch and volume, and even the triple-insulated nano-plexiglas soundproofing your lair is unable to contains the cacophony of primal suffering. Though it has likely scared any daytime explorers away, the outcry is all the more likely to call attention to you.</string>
+    <string name="event_four">The fix is in at the %1$s races this week, and that tip you got from %2$s has fallen flat! Who would have thought a champion with the name \"%3$s\" would turn out to be a total flop? You make a mental note to bet less next time, or possibly just do due diligence. Is not betting an option? </string>
+
+    <string name="extra_one">Would you like to fight %1$s for money? Don\'t think about the logistics too much.</string>
+    <string name="extra_two">Feeling a little tuckered? Would you like to try a new workout based on the science of %1$s? I\'m sure your mind can handle it.</string>
+    <string name="extra_three">Feeling a bit kooky? Care to attempt some homespun electroshock therapy? Remember, this is <i>your</i> home, not some kid with a couple of wires.</string>
+    <string name="extra_four">Just because you\'re paranoid doesn\'t mean they\'re not watching you, right? Perhaps it would be a good idea to send your robotic doppelganger out for a bit to mingle, just to assure the public that everything is just peachy down here.</string>
+
+    <string name="extra_five">A crusty red demon, about the size of a Chucky doll and adorned with all the stereotypical trappings of a bad Krampus rendering lands by your feet. This seems oddly familiar, though the much of your recent memory is a fragmented jumble.\n\n\"A deal! A deal!\" it squeals in delight. \"A piece of every part of you, in exchange for your machine\'s transcendence! Yes, yes!\"\n\nMother warned to never trust devils, though you are fairly sure she was referring to your dad, for whom you could say the same about. The imp taps its fiery foot impatiently. </string>
+
+    <string name="extra_six">A thick red gel oozes up from a thousand nascent micro-cracks in your floor, coalescing into an amorphously billowy, corpulent mass of undulating flesh. This seems oddly familiar, though the much of your recent memory is a fragmented jumble.\n\n\"A deal!\" it bellows through a thick, lispy phlegm. \"A limitless thing, for a piece of your most beloved! Choose!\"</string>
+
+    <string name="extra_seven">Despite an abundance of cautionary measures, including the sacrifice of several neighborhood strays, your Sterile-B-Good virus detector has picked up - you guessed it- a virus. This particular one threatens to eat away at %1$s. It will require a substantial investment of resources to eradicate it. </string>
+
+    <string name="extra_eight">\"Hey, %1$s!\ Yeah, I\'m talking to you!\"\n\nYour %2$s has apparently gained the power of linguistic communication.\n\n\"I\'m bored, cranky, and I don\'t particularly like you. Sing me a song or I\'m gonna cause some trouble before going mute again for a while.\"\n\nWell, you heard the thing.</string>
+    <string name="extra_nine_good">A genie appears! Apparently you were rubbing what you <i>thought</i> was something else, but was in fact a magic bottle.\n\n\"Lo, mortal! I am a beneficent spirit, and I will heal a part of your device. Which will it be?\n\nWell, aren\'t we a lucky one today! </string>
+    <string name="extra_nine_bad">A genie appears! Apparently you were rubbing what you <i>thought</i> was something else, but was in fact a magic bottle.\n\n\"Lo, mortal! I am not one of those goodie two-shoes, humanitarian spirits. For disturbing my repose, I will damage a part of your machine. Choose!\"\n\nAh, nuts.</string>
+    <string name="extra_ten">Sometimes, you really loathe yourself. This moment is one of those times. You have an irresistible urge to watch two of your machine\'s components battle each other for your amusement.\n\nYou realize this is terribly detrimental to your life, legacy, and likely freedom, but there is almost certainly no resisting the compulsion.</string>
+    <string name="extra_eleven">Your late night virtual reality %1$s sessions have drawn a critical mass of power away from your machine! It looks like the %2$s will be damaged shortly, though you can flood it with extra power at the expense of another component, if you wish. This is how science works, folks. </string>
+    <string name="extra_twelve">The ancient Indian burial ground your laboratory is built on bubbles up like an ethereal volcano, releasing the spirits of exploited indigenous persons into your lair. This happens every so often, unfortunately.\n\nYou know they will not leave without sacrificing at least some of your machine to atone for centuries of war crimes. They have narrowed it down to the %1$s or the %2$s, so which will it be?</string>
+    <string name="extra_thirteen">High stakes %1$s is the newest rage among compulsive online gamblers, and you have a free moment to spare. Would you like to try your luck?</string>
+
+    <string name="post_upgrade">With all of your machine components upgraded to their present capacity, there is the opportunity for a majestic ascension or a shameful fall from grace. Again, this is how science works.\n\nYou may choose as many or as few components as you would like. Do tread lightly when playing this close to the sun though, yeah?</string>
+    <string name="post_upgrade_roll">You throw your machine\'s fate into the grasping hands of the gods…</string>
+    <string name="post_upgrade_no">You decide not to risk any of your machine\'s components.</string>
+    <string name="post_upgrade_result">The Strength Infuser has %1$s.\n\nThe Dexterity Animator has %2$s.\n\nThe Intelligence Designer has %3$s.\n\nThe Beauty Sculptor has %4$s.\n\nThe Loyalty Inculcator has %5$s.</string>
+
+    <!--Strings for Choice Results-->
+    <string name="result_one_yes">Your hands and feet jump into a whirlwind of flurry. Switches are felled and raised, knobs are turned, and levers are cranked. When dusk at last falls, you breathe a sigh of tearful, dissatisfied satisfaction as the %1$s takes damage instead. </string>
+    <string name="result_one_no">Sometimes, one must simply accept his or her fate without interference. You choke a silent sob as the %1$s, as much your child as any flesh and blood could be, hurts for the worse.</string>
+    <string name="result_two_yes">They say the greatest tragedy is when a parent outlives his child, which is why you decided to invest in the human extermination trade instead. Still, as the %1$s crumbles before your eyes, you kind of sort of get what they mean.
+    </string>
+    <string name="result_three_yes">Between beatings, mother often told you to carry your head high, suffer no shame, and live your life to its fullest potential. Well gosh darn it, if only her bludgeoned remains underneath your floor could see you now.\n\nNot content to allow harm to visit your life\'s work just for a bit of anonymity, you divert the excess energy. The resulting cacophonous clamor is severe indeed, and there is little doubt that anyone within an uncomfortable radius heard it loud and clear.</string>
+    <string name="result_three_no">Not content to advertise yourself to the world just yet, you allow the %1$s to sacrifice itself for the greater good. There will be no medals, no parades, no Lifetime original movies starring %2$s and %3$s as the machine and you, but a quiet nobility rests here nonetheless. </string>
+    <string name="result_four_success">Do all heroes wear capes? You don\'t know, having neither seen nor heard a spit of television, cinema, radio, or podcast in the past decade. What you do know is that for someone who is technically more formaldehyde and methamphetamine than man, you have managed to retrieve your pills without consequence. Huzzah. </string>
+    <string name="result_four_failure">The good news is that your lifeblood (mind the misnomer, for naught but sickly sweet oil, liquor, and preservative have flowed through your veins for the past decade) has been retrieved. The bad news? Well, you knew it was coming. The process was not kind to the %1$s, which has taken damage.</string>
+    <string name="result_four_no">Where is the emoji for crumbling old mad scientist? Is this some Apple ageist huffle buffle? You make a mental note to write a letter to Steve Jobs. Is it still Steve Jobs? You need to get out more.\n\nUnfortunately, without your pills your body continues to wither away.</string>
+    <string name="result_five">The choice is made. The damage is done. The life of the person that is you goes on.</string>
+    <string name="result_five_save">My gods, brave one! Who knows how the universe turns with such fearless, delusional resolve! Whatever angelic or demonic power heard you, heard you well. The inevitable damage has been averted, and you grow stronger in the knowledge that sometimes the uncontrollable can be controlled.</string>
+    <string name="result_five_fail">What did you think would happen with this gambit, man-child? Alas, the apparent expectation of screaming helplessly into an indifferent universal void versus its reality has cost you a bit of your own mind.</string>
+    <string name="result_six_yes_success">Fortune has truly smiled upon you on this blessed and most holy of days. You managed to pluck just the right amount of stuff from each constituent part, leaving them either none the wiser or not quite wanting enough to suffer ill effects. </string>
+    <string name="result_six_yes_failure">A little bit from you, a smidgen from you, and…oh, dear.\n\nEven in its rudimentary sentience, the %1$s notices you plucking away at its most valuable innards - really, the only thing it owns - and is more than a little miffed. It was already running in overdrive to cope with the missing parts, and decides to simply stop trying so hard. </string>
+    <string name="result_six_no">You decide that one must face the consequences of his or her actions, especially when avoiding them involves potentially getting on the wrong side of a machine so powerful that it could likely devour your soul twice over if it so chose.\n\nDoes this mean you\'re growing as a person? You hope not.</string>
+    <string name="result_seven_yes_success">Remarkably, and with a providence that borders on the divine, the disinfectant dilutes and diverts the juice in a way keeps it from damaging any vital parts of your machine. How lovely.\n\nYour absurd luck notwithstanding, this case study should be not taken as evidence that industrial grade poison should ever be injected as a curative measure. Who needs to be told that though, right?</string>
+    <string name="result_seven_yes_failure">Well, who could have guessed that this would turn out poorly. Besides everyone. The disinfectant, rather than contain the damage, simply gets itself into all sorts of unnecessary places and makes the whole shebang worse. </string>
+    <string name="result_seven_no">You decide that the risk of attempting an untried, untested, and almost certainly lethal Hail Mary curative is not the best course of action.</string>
+    <string name="result_eight_yes_success">Your mission is simply too important to allow any interference, especially one so potent as screaming delusions. You flip a few switches, enter a few lines of code, and send a massive power surge to the precise location where innocence will soon die. And it does. And you\'re fine. Really, you are fine.</string>
+    <string name="result_eight_yes_failure">Living is for the strong! Death is for the meek! At this point, you are unsure where the voices end and your own thoughts begin. You work yourself up into such a fervor that you accidentally carry an extra digit in your calculations, blowing up not only the intended target but also a sewer main and a flock of peace birds. Unfortunately, this left you with a critical shortage of power that damages your %1$s.\n\nIs there a lesson in all this? You hope not. </string>
+    <string name="result_eight_no">Sometimes, in order to kill more, once must kill less. Is that the expression?\n\nThe consequence of this ostensibly moral choice is that your auditory delusions double down in their intensity, and it is all you can do to keep yourself from breaking.</string>
+
+
+    <string name="result_ten_no">You decide it would be safer to leave well enough alone.</string>
+    <string name="result_eleven_no">There is no shame in allowing a quasi-mechanical entity of ambivalent sentience to confront its demons at your expense. Maybe it will emerge more productive than ever. In the meantime, your bank bleeds.</string>
+    <string name="result_twelve_no">What, are you the Socialist Republic of Handouts? At first it\'s just a trinket, but then it turns into voting rights and a living wage. The damn thing doesn\'t even breathe, unless you count the pitched wheezing of various expulsion tubes. Hush, you damnable amalgamation of slithering insubordination!</string>
+    <string name="result_twelve_no_good">Fortunately, it seems to have tired itself out and is no longer drawing attention to you.</string>
+    <string name="result_twelve_no_bad">Unfortunately, the wailing continues for quite some time, and you are now more conspicuous than before.</string>
+    <string name="result_thirteen_no">You decide to let the critters have their new home. What\'s a few million dollars worth of damage when weighed against the wrath of PETA?</string>
+    <string name="result_fourteen_no">%1$s does not have a kind reputation, and you have grown rather accustomed to having kneecaps. You decide to bear the consequences of your oversight and cough up the funds. </string>
+    <string name="result_fifteen_no">You\'ve seen dangers. You\'ve been in the wars. You\'ve knocked a silly man\'s sillier hat off his silliest head. There are some battles you will not pick, however, and this is one of them. Consequently, by the time you get off the phone, your wits are addled.</string>
+    <string name="result_twenty_no">You have made enough terrible decisions in this life to realize when a looming temptation can seem so plausible in the moment, but idiotic in retrospect. You have determined this is one of those times.</string>
+    <string name="result_twentyOne_no">There can be danger in knowledge, especially when one is so inundated with other concerns as to find him or herself on the precipice of a torrential flood. You have no need to tempt a psychotic state at this moment.</string>
+    <string name="result_twentyTwo_no">Though temptation is strong, you are stronger still. The device is scrapped.</string>
+    <string name="result_twentyThree_no">You keep yourself at arm\'s distance, and feel all the safer for it.</string>
+    <string name="result_extraOne_1">Such valor! Such bravery! Such pain!</string>
+    <string name="result_extraOne_2">You\'re hurt, but the purse came through.</string>
+    <string name="result_extraOne_3">Fly like a butterfly and sting like a bee, baby. I don\'t know how you did it.</string>
+
+    <string name="result_extraTwo_1">When novel exertion meets the troubled mind, who is left to pick up the pieces?</string>
+    <string name="result_extraTwo_2">Better. Stronger. More Powerful. Definitely more insane.</string>
+    <string name="result_extraTwo_3">All of the perks and none of the dregs. Happy you.</string>
+
+    <string name="result_extraThree_1">That was never going to go well, and now everything hurts. Sorry.</string>
+    <string name="result_extraThree_2">It was painful. It was exhausting. It was liberating. Worth it? Well, you\'re no philosopher.</string>
+    <string name="result_extraThree_3">Well, that went quite swimmingly. Almost suspiciously so.</string>
+
+    <string name="result_extraFour_1">Why didn\'t you just put a up a flashing billboard advertising your nefarious doings? Now they probably also think you\'re one of those weird doll people, too.</string>
+    <string name="result_extraFour_2">The good news is your doppelganger socialized very well and has certainly assuaged some of the suspicions your neighbors may have had. The bad news is it felt pressured to write a large check to the local PTA.</string>
+    <string name="result_extraFour_3">Your doppelganger socialized extremely well, so well in fact that you are briefly consumed with a terrible jealousy at its interpersonal coping skills. In any case, it has certainly assuaged some of the suspicions your neighbors may have had.</string>
+
+    <string name="result_extra_five_yes">A vicious grin streaks across the creature\'s face, and its body trembles as if its sinews were being pulled taut.\n\nAt once your vision begins to blur, head throbbing like an abused snare drum. You focus, trying to quell the panic and awaiting the fallout from your Faustian bargain. The room spins, the walls bleed, and you fall to the floor in a screaming, crumpled heap.\n\nYou awake in a painful haze. The demon is gone, and so is much of you. In a panic, you pour over the components of your machine. You realize that the %1$s is somehow, in a way that defies even your stretched boundaries of physics, engineered to produce perfection.
+    </string>
+    <string name="result_extra_five_no">The creature huffs and puffs, stamping its feet in a pre-tantrum dance before leaping up and slapping you across the face. By the time you wipe the tears away, it is nowhere to be seen.</string>
+
+    <string name="result_extra_six_yes">The demon grins wide, exposing two quad sets of interlocking, impeccably white fangs against the backdrop of a thick black abyss. The room spins, spins faster, and then goes dark.\n\nUpon awakening,</string>
+    <string name="result_extra_san">your head and heart feel like smooth stone, forever passed over by the current of life\'s woes but never shaken. It is only when you turn back to your machine that you realize it has been stripped dearly.</string>
+    <string name="result_extra_end">you feel your body rejuvenated in a way long forgotten, as if youth and vigor themselves have made their home within you. It is only when you turn back to your machine that you realize it has been stripped dearly.</string>
+    <string name="result_extra_wealth">you are greeted with beeping bank alerts galore, and your jaw drops at the ridiculous influx of cash into your accounts. It is only when you turn back to your machine that you realize it has been stripped dearly.</string>
+    <string name="result_extra_anon">you notice an eerie silence about the room. Checking your Zoom-O surveillance unit\'s reverse-pan footage, you see nothing where your laboratory should be other than a faint shimmer, the type that any innocuous reflection of light might give. It is only when you turn back to your machine that you realize it has been stripped dearly. </string>
+
+    <string name="result_extra_six_no">You decide that there is room but for one foul presence in this place, and dismiss the demon with a casual arrogance. It growls like a drowning banshee, spits in your face, and dissolves itself back underground. Great, now you have to mop.</string>
+
+    <string name="result_extra_seven_yes">Realizing that long term success requires short term sacrifice, you spend the next week scrubbing, shouting, crying, and generally having an unpleasant time of it. When the dust settles, you are safe from the infection.</string>
+    <string name="result_extra_seven_no">Unwilling to sacrifice so much so quickly, you content yourself with sharing your home with the microscopic entity for the foreseeable future.</string>
+    <string name="result_extra_no">And the days march on…</string>
+
+    <string name="result_extra_eight_success">What\'s a bit of music to keep things running smoothly? You dust off the old %1$s, belt out a sweet tune, and are satisfied to see the %2$s fade back into a silent lack of sentience. Well, how easy was that.</string>
+    <string name="result_extra_eight_failure">What\'s a bit of music to keep things running smoothly? Unfortunately, the only instrument you can locate at the moment is a %1$s, and there is only so much a fair tenor like yourself can do with such wanting accoutrements. The %2$s is very displeased and not a little bit traumatized, banging its internal circuitry around to its own detriment.</string>
+    <string name="result_extra_eight_no">"\You must have a lot of friends who make idle threats!\" it screeches, before proceeding to beat the bejesus out of the %1$s.</string>
+
+    <string name="result_extra_good_nine">The genie nods, lifts up its hands in a whirling dervish of flurry, and when the smokes clears your %1$s looks spiffier than before. Well, wasn\'t that easy!</string>
+    <string name="result_extra_good_nine_failure">The genie nods, lifts up its hands in a whirling dervish of flurry, and when the smokes clears your %1$s looks…exactly the same as before. The genie shrugs and disappears.</string>
+    <string name="result_extra_bad_nine">The genie nods, lifts up its hands in a whirling dervish of flurry, and when the smokes clears your %1$s creaks and moans with a newfound malfunction. Great.</string>
+    <string name="result_extra_ten_yes">Thy obsession\'s will be done…\n\nThe %1$s and the %2$s battle it out fiercely, and by the end of the bloody struggle the %3$s is much worse for the wear. </string>
+    <string name="result_extra_ten_no">You refuse to be a slave to maladaptive mental malfeasance! The struggle is long, hard fought and ultimately successful, but boy did it take something out of you.</string>
+    <string name="result_extra_eleven_yes">You decide that a sacrifice to save the %1$s is worth it, and the sacrifice is grave indeed as the %2$s wails with pain.</string>
+    <string name="result_extra_eleven_no">You are not willing to pick out a poor random component to fall on the sword. What is this, Roman decimation? The %1$s whimpers and loses some of its functionality.</string>
+    <string name="result_extra_twelve_yes">With no choice in the matter, you offer up the %1$s. Poor thing, it was just a boy!</string>
+    <string name="result_extra_twelve_no">With no choice in the matter, you offer up the %1$s. Poor thing, it was just a boy!</string>
+    <string name="result_extra_thirteen_yes_success">Success!</string>
+    <string name="result_extra_thirteen_yes_failure">Crushing defeat. At least you didn\'t bet the bunker.</string>
+    <string name="result_extra_thirteen_no">You decide to focus on more important matters. You know, like the monstrosity maker in front of you.</string>
+
+
+    <string name="result_ten_yes_success">The Qi flows into the Zen which flows again into the spiritual awakening centered on something very profound. You don\'t really care, as long as it works. Which it does. You feel your %1$s strengthen.</string>
+    <string name="result_ten_yes_failure">Perhaps Mercury is not in retrograde, the stars are unaligned, or the chili you\'ve eaten for the past 6 nights is finally catching up. In any event, your attempt to expel that which haunts you is a dismal failure, which ironically causes you only more distress. </string>
+    <string name="result_eleven_yes_success">\"So you see, child, the \'id\' cannot unduly influence one\'s psyche without the express permission of the \'ego\', which in turn is further regulated by the \'super-ego\'…\n\nThough you are unsure of how deeply the ambivalently sentient device is able to comprehend your lecture, it nonetheless seems to respond positively. After a time, the worst of its nihilistic venting has ceased.
+    </string>
+    <string name="result_eleven_yes_failure">Perhaps there was a reason you neglected to pursue a career in the soft sciences, exclusive of the whole narcissistic sociopathic delusionary psychosis with aggressive histrionic pursuits of grandeur thing. Besides, the only successful misanthropic mental health practitioners are the ones with television shows, and you were never one for the limelight.\n\nIn any case, you fail miserably at tempering the device\'s neurotic whimpering, and the expenses to keep it running are substantially more than a good therapist.</string>
+    <string name="result_twelve_yes_success">Yes, yes child. Who\'s a good one? Who\'s my special little guy? You\'re not sure which human analogous appendage you find yourself stroking, but it seems to allay the worst of the device\'s aggression.\n\nThe screams die down, the mad fury abates, and what passes for a semblance of normality in the self-imposed pit of quiet desperation you have made returns. Things will be okay, at least for the moment. </string>
+
+    <string name="result_twelve_yes_failure">Minutes turn to hours as you plead, cajole and coerce the damnable thing to quiet down and behave. Perhaps it\'s that you are trying to assuage the anger of a device whose express purpose is to aid in the creation of a world-slaying monstrosity, but by the time you manage to quell the noise, your whole body wracks with fatigue.</string>
+
+    <string name="result_thirteen_yes_success">Such grace! Such finesse! Why, if this whole world domination thing ends up not working out, and you can escape being thrown against a wall, there just might be a career in pest extermination for you. Though really, isn\'t that what we are trying to do anyway?</string>
+    <string name="result_thirteen_yes_failure">Alas, your skills as an exterminator leave much to be desired. In the desperately comical struggle to defeat an organism several dozen links lower than you in both physical and mental prowess, you have succeeded only in damaging the %1$s. Hopefully your removal of humanity fares better.</string>
+    <string name="result_fourteen_yes_success">Ah, you always knew ol\' %1$s was a big softy at heart. Hell, are these guys even out to make money or break limbs anymore? Though you may have to now cross Mafia Enforcer off your alternate career list, at least you do not have to worry about bills getting paid.</string>
+    <string name="result_fourteen_yes_failure">What! Do they even know who you are over there at Big Dumb Mafia Headquarters? Clearly not, since the threat of your internal organs transitioning to an external state could scarcely have been made more clear. For all your bravado, however, this has become yet another stressor.</string>
+    <string name="result_fifteen_yes_success">\"So you see, if I don\'t get back to work, the entire group of %1$s will be swept away into a current of death by Hellfire. Yes, I am a saint. No argument there. Yes, I will make sure to give my best to that long list of people you mentioned. No, I do not validate parking. What? Sure. Bye!\"\n\nWell, that went about as painlessly as possible. What was all the fuss about, anyway?
+    </string>
+    <string name="result_fifteen_yes_failure">\"Gods, no, I wasn\'t trying to get rid of you, I swear, I was only trying to…"\n\n"But you see…"\n\n"Those aren\'t even words…\"\n\nThe harangue of jargon goes for eternity, and then some. Who can say when and how you managed to extricate yourself from the tentacles of talk, but here you are. And bloody exhausted, at that.
+    </string>
+    <string name="result_sixteen_yes">The interlopers stare blankly at the crumpled wad of dollars, euros, and old Confederate bills before gathering them up and departing. Clearly it was less about the craft than the extortive properties thereof, huh?</string>
+    <string name="result_sixteen_no">You refuse to be shaken down by the likes of those potzers, that\'s for darn sure. You activate Defense Protocol 4, and your trusty mechanized bees attack like only blindly subservient rudimentary AI can. The hapless would-be solicitors flee like the wind, screaming the whole way and making quite an unwelcome ruckus so close to your lair. </string>
+    <string name="result_seventeen_yes">You bite the bullet, and are admittedly impressed with both the speed and efficient discretion that lands a lovely lapis lazuli hued baggie at your door within hours.\n\nThe effects are instantaneous and euphoric, and you feel any previous loss of endurance fade into bliss. Your pocketbook ain\'t feeling as pretty, though.</string>
+    <string name="result_seventeen_yes_success">You bite the bullet, and are admittedly impressed with both the speed and efficient discretion that lands a lovely lapis lazuli hued baggie at your door within hours.\n\nThe effects are instantaneous and euphoric, and you feel any previous loss of endurance fade into bliss. When it comes time to scan your skin graft barcode for payment, the delivery drone beeps twice and delivers a pre-recorded message.\n\n\"This one\'s on the house. Keep our organization in mind when everything is said and done.\"\n\nWhile you are more than a little disturbed that someone knows about your quaint adventure, you are certainly happy to accept the offer.
+    </string>
+    <string name="result_seventeen_no">You decide against the insidious pull of psychotropic stimulants, but gosh darn it, you really are tired.</string>
+    <string name="result_eighteen_yes_success">The part arrives within the hour, and though the radiation exposure would normally kill a person, your progressive parents had the foresight to vaccinate you against uranium. Oh, and you <i>did</i> have that Amazon credit!  </string>
+    <string name="result_eighteen_yes_failure">The part arrives within the hour, but you couldn\'t find the gosh darn credit in your account. Had you already used it? What day is it? How can mirrors be real if our eyes aren\'t real? Anyway, you manage to fix the apparatus. </string>
+    <string name="result_eighteen_yes_failure_2">Not only can you not locate the credit in your account, but the drone insists on payment up front, claiming that a purchase of this magnitude demands physical collateral. Though you despise extortion only slightly less than astrology, you place your mint condition %1$s in the drone\'s receptacle, and lividly watch it zip away before repairing the apparatus. </string>
+    <string name="result_eighteen_no">Life is full of little compromises. One day you want Coke, but they only have Pepsi. Another day they\'re serving maple scones, while you crave the blood of the innocent. In this case, you decide that between the simultaneous divorces and your Scratcher ticket addiction, you just don\'t have the funds to spare for this one.</string>
+
+    <string name="result_twenty_yes_success">With eccentric expertise, you fiddle with instruments that would be alien to anyone but you and Stella (rest her soul). Buzzers buzz, sirens wail, and several small rodents are baked into oblivion. When the red dust clears, the %1$s sparkles with a newly found glow. </string>
+    <string name="result_twenty_yes_failure">Why mess with a good thing? For science, that\'s why! Alas, there is reason for such time-tested adages, and this becomes readily apparent as your attempt to divert power results in a large crackle and a plume of smoke. The %1$s has taken
+        damage. </string>
+    <string name="result_twentyOne_yes_success">A soothing chorus of nourishing literary treasure washes over your fatigued body. The effects are immediately noticeable, and you can\'t help but wonder briefly why life passes by unexamined so often.</string>
+    <string name="result_twentyOne_yes_failure">Nostalgia is a capricious beast, and the rose-colored glasses through which it presents is often a clear and present danger. The chosen material, for whatever comfort it may have held in the past does naught but wear you out with a glimpse of years that were, could have been, but are destined to never be again.\n\nPerhaps you should stick with Sudoku.</string>
+    <string name="result_twentyTwo_yes_success">Well now, who says that there aren\'t good, honest folk out there anymore? The device is a rousing success, and your Zoom-O surveillance unit\'s Anonymity Sensor beeps happily. </string>
+    <string name="result_twentyTwo_yes_failure">Perhaps when this is all said and done, you can invest the proceeds of world domination in some magic beans. The promise of a device, however well-intentioned, proves to be a complete disaster. Rather than casting a shroud of secrecy over your lair, it electrifies the place like a glowing Christmas tree, which aside from the awful gaudiness of the season, serves to only draw more attention to you.</string>
+    <string name="result_twentyThree_yes_success">O cruel, needless, misunderstanding! O stubborn, self-willed exile from the loving breast! Your gaze locks upon the scattered mess of past and future constituent parts of chaotic madness that coalesce and break apart like lovers in a dangerous space-time.\n\nThe moment is beautiful, startling, opulent, and not a little bit arousing. Your mind feels healed.</string>
+    <string name="result_twentyThree_yes_failure">Who would have thought that a staring contest with a future demon spawn would end poorly? Well, most people, had you bothered to ask them.\n\nThe experience is terribly unnerving, and your fragile mind is shaken.
+    </string>
+
+    <string name="entropy">Days go by, and still you cry. Would you could lift your arms to the sky, but alas, who knows why society chooses to deify the terrible lie that denies how high we can fly.\n\nAnyway, entropy is a very real thing and it has begun to takes its toll on your %1$s. </string>
+    <string name="anon_entropy">Despite an enormous investment in soundproofing and exhaust diversion, there have simply been too many created and incinerated creatures to have gone unnoticed, and your Zoom-O surveillance system has shows more commotion outside than usual. Play it cool there, Bones. </string>
+    <string name="wealthy_entropy">As time goes on, the cost it takes just to maintain your current state of affairs increases. You did not budget for this.</string>
+
+
+    <string name="one_machine_stat_left">Alas, the %1$s is only component of your legacy that is not entirely ravaged, and whether it be age, entropy, or sheer loneliness, it too has decided to make haste toward its fallen mechanical brethren.</string>
+    <string name="no_machine_lose_sanity">The utter destitution of your birthright and legacy, and the unfortunate resurgence of your chronic hemorrhoids is too much to bear, and your addled wits dwindle further.</string>
+    <string name="no_machine_lose_endurance">You have borne such trials and tribulations. Dating culture speaks of emotional availability, but what of the courage of he who dares to be his true, unabashedly evil self? Such an exhausting, unappreciative world this is. </string>
+    <string name="no_machine_lose_wealth">Time marches on, and you have simply not had enough of it to properly manage all the backroom dealings, shady hedge funds and dubious investments which have heretofore kept you in such delicious liquidity. At least, that\'s how your shill of an accountant has phrased it. As your wealth drops and you consider the old adage that money cannot buy happiness, it is certainly nicer to be sobbing in the Playboy Mansion than in a cardboard box.</string>
+    <string name="no_machine_lose_anon">If there exists a science fiction equivalent of a creaking, whining jalopy that\'s on its last legs as its engine whines, suspension wheezes and every constituent part not fallen off scrapes along on its last legs, this would be it. Time is cruel, and its entropic effects crueler still. It\'s also LOUD. </string>
+
+    <string name="no_machine_loss_one">It has come to this. You may lose your mind or your body, but it must be one. Sorry, old friend.</string>
+    <string name="no_machine_loss_two">The aggregated mix of heat and EPA banned chemicals has stripped off one of the essential layers of your lair\'s soundproofing. You only know one man both discrete and skilled enough to make repairs, but he is not cheap. Or nice. Or even quite properly a human, you think.</string>
+
+    <string name="no_machine_loss_one_choice_san">Take my mind.</string>
+    <string name="no_machine_loss_one_choice_end">Take my body (not like that, pervert).</string>
+    <string name="no_machine_loss_two_choice_com">Open up your pocketbook.</string>
+    <string name="no_machine_loss_two_choice_anon">Eh, I\'m sure it will be just fine.</string>
+
+    <string name="no_machine_loss_one_result_san">Your head bleeds. In a bad way.</string>
+    <string name="no_machine_loss_one_result_end">Your already frail meat carriage withers away further.</string>
+    <string name="no_machine_loss_two_result_com">He\'s over and done quicker than Winston Wolfe, and takes a bit extra for the trouble. </string>
+    <string name="no_machine_loss_one_result_anon">They can hear you. Everyone can hear you.</string>
+
+    <string name="single_man_stat_left_one">The last of your mind continues to fade…</string>
+    <string name="single_man_stat_left_two">The last of your body continues to fade…</string>
+    <string name="single_man_stat_left_three">The upkeep cost of your decaying designs continues to eat away at your bank account…</string>
+    <string name="single_man_stat_left_four">Failure is the most vocal critic of all, and the last of your anonymity continues to fade…</string>
+
+    <!--End game-->
+    <string name="no_man_stat_left">The day is long, and the night longer still. For your depleted body and soul, however, they are now both over.\n\nToo cryptic? You\'re dead. Sorry.</string>
+
+    <!--Upgrade Events-->
+    <string name="upgrade_one">The seasons continue to turn, and through trial, error, tinkering and madness, you have acquired the resources to upgrade one of your component creators. Which will it be? </string>
+
+    <!--End of Game Scenarios -->
+    <string name="final_preface">The very earth seems to quake in rebellion at the sheer scale of unnatural, immoral turpitude that coalesces in front of you. Military grade goggles do little to mitigate the kaleidoscope of sparks and flashes that stretch on for eternity, though nothing could shield you from the cascading montage of horrors that rend the last vestiges of humanity from your eyes. As the dust clears, you gaze upon what fortune as brought…\n\nWell, that was underwhelming. No brass band. No legions of cheering fans. No ticker tape parade. Just a thing ready to kill some other things. You suppose that has been the point.\n\nRealizing you must give the monstrosity before you a name, you choose <i>%1$s</i>, after your %2$s %3$s.</string>
+
+
+    <string name="transition">The time for rumination is over, however, and the time for action nigh. Your hand hovers over the \"Launch\" button embedded in your wrinkly skin for just a moment before smashing down, marking the beginning of the end. </string>
+
+    <!-- will sync up w/ e1-e16-->
+    <string name="z_1">The creature contorts its facial construct into what you assume is its equivalent of a manic grin and, </string>
+    <string name="z_2">The creature contorts its facial construct into what you assume is its equivalent of a smile and,</string>
+    <string name="z_3">The creature contorts its facial construct into what you assume is its equivalent of disinterest and,</string>
+    <string name="z_4">The creature contorts its facial area into what you assume is its equivalent of pure disgust and,</string>
+
+
+    <string name="z_5">with a fawning mental caress on your psyche that you crave again like a pure 8-ball withdrawal,</string>
+    <string name="z_6">with a reassuring mental caress on your psyche, </string>
+    <string name="z_7">with an ambivalent, slightly unsettling mental caress on your psyche,</string>
+    <string name="z_8">with a sharp, brutal assault on your mental psyche,</string>
+
+    <string name="z_9">with a low, forceful bow,</string>
+    <string name="z_10">with a sharp salute,</string>
+    <string name="z_11">with a curt nod,</string>
+    <string name="z_12">with a strangely anthropomorphic pelvic shade toss,</string>
+
+    <string name="z_13">bear hug that threatens to crush your vital organs,</string>
+    <string name="z_14">with a strangely anthropomorphic thumbs-up,</string>
+    <string name="z_15">with a strangely anthropomorphic duck-faced pucker,</string>
+    <string name="z_16">expectorating a wad of toxic spittle in your general direction,</string>
+
+    <string name="z_17">with a mouth cage full of stagnant spittle,</string>
+    <string name="z_17_2">with a mouth cage full of stagnant spittle,</string>
+    <string name="z_17_3">with a mouth cage full of stagnant spittle,</string>
+    <string name="z_17_4">with a mouth cage full of stagnant spittle,</string>
+
+    <!--StrDexRevealTwo-->
+    <string name="z_21">leaps up like a geyser through your roof and out into the world,</string>
+    <string name="z_22">leaps up like a geyser, punching a hole through your wall and out into the world,</string>
+    <string name="z_23">leaps up like a geyser, pounding furiously against your roof before finally breaking through and careening out into the world,</string>
+    <string name="z_24">leaps up like a geyser, barely balancing its weight on the rafter while trying unsuccessfully to break through your roof. After a time it returns to the floor, proceeding to walk through the laboratory\'s door with as much dignity as a stooped milquetoastian Cronenberg can,</string>
+
+    <string name="z_25">smashes through your wall like a freight train and out into the world,</string>
+    <string name="z_26">punches through your wall and zips out into the world,</string>
+    <string name="z_27">zips toward your wall, striking it with furious purpose before finally breaking through and heading out into the world,</string>_
+    <string name="z_28">dashes madly toward your wall, pounding it with great gusto and indefatigable purpose until suddenly it stops, pivots, and proceeds to walk through the laboratory\'s door with as much dignity as a stooped milquetoastian Cronenberg can,</string>
+
+    <string name="z_29">stumbles like a asymmetrical boulder through your wall and out into the world,</string>
+    <string name="z_30">punches waywardly through your wall, moving out into the world, </string>
+    <string name="z_31">throws itself with aimless abandon at your wall, hitting it from dozens of angles with ferocity before finally breaking through and heading out into the world,</string>
+    <string name="z_32">stumbles with purpose to your laboratory door, head held high while it smacks into the door frame before correcting itself and following its legs out, </string>
+
+    <string name="z_33">rolls sidelong, with the grace of a newborn giraffe, through your wall and out into the world,</string>
+    <string name="z_34">rolls itself against your wall until it breaks through, heading out into the world,</string>
+    <string name="z_35">rolls desperately against your wall, attempting with great abandon to break through until finally it does, heading out into the world, </string>
+    <string name="z_36">rolls itself with pitiful nudges against your wall and staircase, clearly seeking an exit strategy. It finally manages to claw its way up to your laboratory door, and with an equally exertive effort, unlatches the bolt, turns the handle, and slides itself out into the world,</string>
+
+    <string name="anon_1">Amazingly and against all odds, you have managed to remain entirely undiscovered. Your Zoom-O surveillance system shows a clear path outside of your compound.</string>
+    <string name="anon_2">Despite the morbid mess of mechanical mayhem visited on this place, you have managed to remain relatively undiscovered. Your Zoom-O surveillance system has reveals the occasional curious lookie-loo, but they are apt to wander off when the mechanical bees are released.</string>
+    <string name="anon_3">Unfortunately, the terrible screams, throbbing dins, and those extra cheesy bean burrito nights did not pass without consequence. Your Zoom-O surveillance system shows lingering lookie-loos and rent-a-cop patrol cars outside.\n\nYou release a flurry of mechanical bees, but many break down mid-flight, drawing further attention on you. Next time don\’t go with cheap eBay knockoffs, and get authentic <i>Bert\’s Buzzers</i> instead!</string>
+    <string name="anon_4">Unfortunately, there was a bitter custody battle between you and subtlety, and you lost. Did that analogy make sense? Great.\n\nLong story, made short: People heard you clanking about in here like some sort of mad dog, and you know how nosey HOA neighbors get. Your Zoom-O surveillance system shows a squadron of police cruisers camped outside your supposedly hidden enclave, and you think just beyond that is a TMZ van. Hey, looks who\’s famous!</string>
+    <string name="anon_5">Unfortunately, you have conducted this little whimsy of yours with as much subtlety as a sexually charged bull in a china shop full of heifer figurines.\n\nYour Zoom-O surveillance system shows police helicopters, SWAT vans, and a perimeter of police cruisers set around your supposedly hidden enclave. You are going to have a time with this one, brave one!</string>
+    <string name="anon_6">Unfortunately, you all but took out full-page ads bragging that something super sinister was going on in here. Worse, more likely, since who in their blue suede shoes reads the newspaper anymore?\n\nYour Zoom-O surveillance system show military Apache class helicopters, desert-camouflaged Humvees (that you reside in an arboreal neighborhood seems not to matter), and mean-looking alpha males with big guns pointed at your supposedly hidden enclave. Great job, Gomer.</string>
+    <string name="anon_7">Unfortunately, the entire world knows what you\’re doing in here. Your Twitter is blowing up with tweets like, “Yo, fam. This evil scientist is gonna try to take over the world!\" and  \"Hey, science man, 1932 called and they want their pulp fiction back!”\n\nYour Zoom-O surveillance system, despite its technological prowess and wide-spanning views, cannot quite take in the breadth of military personnel descending upon your supposedly hidden enclave. Oh, dear, now they\’re ringing your doorbell and you are fresh out of tea.</string>
+
+    <string name="oppose_1">completely unopposed.</string>
+    <string name="oppose_2">opposed with light, non-threatening fanfare.</string>
+    <string name="oppose_3">being shot at by tiny guns.</string>
+    <string name="oppose_4">being harangued by gunfire.</string>
+    <string name="oppose_5">being bombarded by heavy arms and automatic weapons.</string>
+    <string name="oppose_6">being shelled by a substantial portion of the nation\'s armed forces.</string>
+    <string name="oppose_7">being shelled by the combined military might of the nation\'s armed forces and its allies.</string>
+
+    <!--33-->
+    <string name="strong_unopposed">The coast clear, it bellows a tune of war, and is</string>
+
+    <!--0-5-->
+    <string name="strEnd1_1">This is a very good thing, as it is quite wanting in the resist-the-po-po department,</string>
+    <string name="strEnd1_2">This is very, very fortunate, as even a small child with an Airsoft bang-a-roo would be likely give it trouble, and it is </string>
+    <string name="strEnd1_3">This is fortunate, as that is still literally the only way it would be able to, and it is</string>
+    <string name="strEnd2_1">Its arsenal neutralizes the token resistance, though does not leave room for much more, and it is</string>
+    <string name="strEnd2_2">Its arsenal gets the worse end of a mailman\’s dog taser, and it is incapacitated.</string>
+    <string name="strEnd2_3">It nonetheless loses its first few pitched battles with an irate cat lady, disgruntled postal worker, and quite mean stray cat.</string>
+
+    <!--6-11-->
+    <string name="strEnd3_1">Its own ungodly arsenal makes quick work of the meek, pitiful resistance, and it is</string>
+    <string name="strEnd3_2">Its own arsenal makes quick work of the meek, pitiful resistance, and it is</string>
+    <string name="strEnd3_3">Its own arsenal holds off the pitiful resistance, and it is</string>
+    <string name="strEnd3_4">Its arsenal nonetheless struggles against this token resistance, and it is wounded before managing to suppress it, and is finally</string>
+    <string name="strEnd3_5">Its physical and mental prowess is inadequate against the barrage, and it is quickly and without fanfare incapacitated.</string>
+    <string name="strEnd3_6">Its non-existence physical and mental prowess is quickly overwhelmed by the little poppy bang-bangs.</string>
+
+    <!--12-17-->
+    <string name="strEnd4_1">Its own arsenal makes quick work of the ill-prepared resistance, and it is</string>
+    <string name="strEnd4_2">Its own arsenal makes quick work of the ill-prepared resistance, and it is</string>
+    <string name="strEnd4_3">Its own arsenal manages to hold off the resistance with minor injury, and it is</string>
+    <string name="strEnd4_4">Its arsenal is quickly overwhelmed.</string>
+    <string name="strEnd4_5">Its physical and mental prowess is inadequate against the barrage, and it is quickly and without fanfare incapacitated.</string>
+    <string name="strEnd4_6">Its meek physical and mental prowess is quickly overwhelmed by the small arms fire.</string>
+
+    <!--18-23-->
+    <string name="strEnd5_1">Its own arsenal levels the puny humans and their silly rooty-tooty shooties, and it is</string>
+    <string name="strEnd5_2">Its own arsenal, though tested, contains and then obliterates the puny humans and their silly rooty-tooty shooties, and it is</string>
+    <string name="strEnd5_3">Its own arsenal is somewhat overwhelmed by the scale of fire, though it manages to inflict some casualties, and it is</string>
+    <string name="strEnd5_4">Its own arsenal is no match for this resistance, and it is mortally wounded. </string>
+    <string name="strEnd5_5">Its physical and mental prowess is inadequate against the barrage, and it is quickly and without fanfare incapacitated.</string>
+    <string name="strEnd5_6">Its meek physical and mental prowess is quickly and without fanfare incapacitated.</string>
+
+    <!--24-29-->
+    <string name="strEnd6_1">Though the sheer scale of heavy suppressive fire laid upon the thing is impressive, so potent is the creature that it manages decimate the main bulk of resistance, and is</string>
+    <string name="strEnd6_2">Though powerful, the sheer scale of heavy suppressive fire laid upon the thing takes a toll. It manages to eliminate enough resistance to escape, and is</string>
+    <string name="strEnd6_3">It is overwhelmed quickly by the sheer scale of heavy suppressive fire.</string>
+    <string name="strEnd6_4">It is quickly and without fanfare overwhelmed by the sheer scale of firepower.</string>
+    <string name="strEnd6_5">Its physical and mental prowess is inadequate against the barrage, and it is quickly and without fanfare overwhelmed by the sheer scale of firepower.</string>
+    <string name="strEnd6_6">Its meek physical and mental prowess is quickly and without fanfare overwhelmed by the sheer scale of firepower.</string>
+
+    <!--30-32-->
+    <string name="strEnd7_1">The sheer scale of heavy suppressive fire laid upon the thing is impressive, yet it is powerful enough to break through. It manages to decimate a large swath of the resistance, escaping critical injury, and</string>
+    <string name="strEnd7_2">Despite its physical and mental prowess, the sheer scale of heavy suppressive fire laid upon the thing is too much face head on. It lays down as much defensive fire as it can, but is unable to break through and is subsequently crushed in a pile of rubble.</string>
+    <string name="strEnd7_3">It is pinned down almost instantly by the sheer scale of heavy suppressive fire.</string>
+
+    <!--0-5-->
+    <string name="dex_End1"> off with a Usain-Bolt-like start.</string>
+    <string name="dex_End2"> off with an inspirationally zippy start.</string>
+    <string name="dex_End3"> off with a respectable trot.</string>
+    <string name="dex_End4"> able to wobble off with a determined grimace.</string>
+    <string name="dex_End5"> able to toddle off with a wayward, wobbly gait.</string>
+    <string name="dex_End6"> able to crawl in an awkward, writhing roll along the streets and boulevards.</string>
+
+    <string name="launch_failure">The powers that be barge in, and having vested all your security in the failed abomination outside, you are forced to surrender ignominiously. They don\'t even let you put on pants.</string>
+
+    <string name="s_1">The destruction is terrible, ruinous, and more than a little bit funny. Disparately overwhelmed as a baby at a baby-spiking convention, resistance crumbles so quickly as to encourage further martyrs to lay down their arms and split.\n\nAs the rampage reaches its climax, the whole of humanity rallies behind a volatile new re-animation technology which has succeeded in bringing back none other than Napoléon Bonaparte from the dusty dessication of death.\n\nJust as it seems that this unholy contraption is gaining the upper hand, the creature turns, its radiant visage a breath of luxury amidst the brutality of war, and gives a soliloquy so stirring that it rallies half of pseudo-Napoleon\'s troops to its side. Oh, the irony.\n\nComplete, total, unmitigated victory! If the Heavens still bothered with us mortal shells, her angels would sing a thousand carols for the cause! As it stands, world domination will have to do.</string>
+
+    <string name="s_2">The destruction is terrible, ruinous, and more than a little bit funny. Disparately overwhelmed as a baby at a baby-spiking convention, resistance crumbles so quickly as to encourage further martyrs to lay down their arms and split.\n\nAs the rampage reaches its climax, the whole of humanity rallies behind a volatile new re-animation technology which has succeeded in bringing back none other than Napoléon Bonaparte from the dusty dessication of death. The old chap still has what it takes, and succeeds in leading the vestiges of humanity into a cornered stalemate with your creature. C\'est la vie, mon ami. </string>
+
+    <string name="s_2_2">The destruction is terrible, ruinous, and more than a little bit funny. Disparately overwhelmed as a baby at a baby-spiking convention, resistance crumbles so quickly as to encourage further martyrs to lay down their arms and split.\n\nAs the rampage reaches its climax, the whole of humanity rallies behind a volatile new re-animation technology which has succeeded in bringing back none other than Napoléon Bonaparte from the dusty dessication of death. They go toe-to-toe, sternum to sternum, and a select other physical contests that despite the Frenchman\'s natural endowment, cannot compete with the Japanese import prosthetic you installed.\n\nAlas, when the otherwise equally matched adversaries reach the head versus head game, the dashing general can simply rally more troops with his radiant, beyond-the-grave visage. </string>
+
+    <string name="s_2_3">As the weeks and corpses pass by, it becomes increasingly apparent that the bullets and traps thrown at the creature are having an effect. Though terribly destructive, it cannot outsmart the military\'s recruitment of former alien invasion commanders.  Halfway to the eastern seaboard, through a combination of nets, marbles, and paper clips, the poor thing is trapped by a tightly disciplined group of mercenary replicant hunters.\n\nActually, they are just a bunch of die-hard 80\'s sci-fi geeks who are stoked to finally get the chance to LARP a real fight. Who\'d have thunk they would be so effective? </string>
+
+    <string name="s_2_4">As the weeks and corpses pass by, it becomes increasingly apparent that the bullets and traps thrown at the creature are having an effect. Though terribly destructive, it cannot outsmart the military\'s recruitment of former alien invasion commanders.\n\nEventually, a million-deep vanguard mercenary militia, hired by a billionaire aesthetician mogul in protest of your creature\'s sheer ugliness, acts as a buffer while the rest of humanity rallies behind a volatile new re-animation technology which has succeeded in bringing back none other than Napoléon Bonaparte from the dusty dessication of death.\n\nThe old chap still has what it takes, and succeeds in leading a united humanity in a successful counter-attack, subduing your creature. c\'est la vie, mon ami </string>
+
+    <string name="s_3">Unfortunately, the initial terror backslides into confusion, and then relief, as it is clear that your creature is not working with a full Rubik\'s Cube. It frequently revisits felled ruins, digging its head in the rubble and playing peek-a-boo with surviving rodents.\n\nAfter careful observation of its very predictable behaviors, the international community hires a Pied Piper actor to lead the rodents, and your creation, off into the sunset.</string>
+
+    <string name="s_4">The destruction is terrible, ruinous, and more than a little bit funny. Disparately overwhelmed as a baby at a baby-spiking convention, resistance crumbles so quickly as to encourage further martyrs to lay down their arms and split.\n\nWell into its rampage, however, the creature stops suddenly, its gaze locked on a large shard of glass.\n\n\"Is…is this what I really look like?\" it rumbles sadly. It does not help that a passing hooligan on a bike yells \"Freak!\"\n\nThe creature slumps down on its metal hindquarters, an acidic tear dripping down its face cage. It appears to have lost hope.</string>
+
+    <string name="s_5">Well into the rampage, a million-deep vanguard mercenary militia, hired by a billionaire aesthetician mogul in protest of your creature\'s sheer ugliness, acts as a buffer while the rest of humanity rallies behind a volatile new re-animation technology which has succeeded in bringing back none other than Napoléon Bonaparte from the dusty dessication of death.\n\nThe old chap still has what it takes, and succeeds in leading the vestiges of humanity into successful flank, subduing your creature. c\'est la vie, mon ami.</string>
+
+    <string name="s_6">Unfortunately, the initial terror backslides into confusion, and then relief, as it is clear that your creature is not working with a full Rubik\'s Cube. It frequently revisits felled ruins, digging its head in the rubble and playing peek-a-boo with surviving rodents.\n\nThe gasps and widow faintings in reaction to its hideous appearance seem to make it quite sad, and eventually your creation does naught but mope along the streets and boulevards, massive appendages flailing in tantrum and leaking acidic tears from its face cage. At this point, it is not so difficult for a military psychologist to convince it to come along to a happier place.</string>
+
+    <string name="s_10">As the weeks and corpses pass by, it becomes increasingly apparent that the bullets and traps thrown at the creature are having an effect. It simply cannot out-smart and out-maneuver them all. Halfway to the eastern seaboard, through a combination of nets, marbles, and paper clips, the poor thing is trapped by a tightly disciplined group of mercenary replicant hunters.\n\nActually, they are just a bunch of die-hard 80\'s sci-fi geeks who are stoked to finally get the chance to LARP a real fight. Who\'d have thunk they would be so effective? </string>
+
+    <string name="s_11">As the weeks and corpses pass by, it becomes increasingly apparent that your lovely creature is an absolute idiot. Though its brute force would likely be unstoppable harnessed correctly, this is not the case. It frequently revisits felled ruins, digging its head in the rubble and playing peek-a-boo with surviving rodents.\n\nAfter careful observation of its very predictable behaviors, the international community lures it into an unseemly embrace of a death machine disguised as a giant love-bot. </string>
+
+    <string name="s_11_2">As the weeks and corpses pass by, it becomes increasingly apparent that your lovely creature is an absolute idiot. Though its brute force would likely be unstoppable harnessed correctly, this is not the case. It frequently revisits felled ruins, digging its head in the rubble and playing peek-a-boo with surviving rodents.\n\nAfter careful observation of its very predictable behaviors, the international community lures it into an unseemly embrace of a death machine disguised as a giant love-bot. Unfortunately, even this supposedly non-sentient machine, whose only programmed purpose is to destroy, is so repulsed by your creature that it spits it back out in a mangled pulp.</string>
+
+
+    <string name="s_12">As the weeks and corpses pass by, it becomes increasingly It that the thing is an absolute idiot. It frequently revisits felled ruins, digging its head in the rubble and playing peek-a-boo with surviving rodents.\n\nIt is eventually lured by a carrot on a stick into a man-made, benign black hole, designed to keep out of sight and mind the most unsightly, aesthetically unpleasing creatures. It is there that your creation spends its days and nights with the likes of Gary Busey and Steven Tyler, though they refused to talk to it. </string>
+
+    <string name="s_13">As the weeks and corpses pass by, it becomes increasingly It that the bullets and traps thrown at the creature are having an effect. It simply cannot out-smart and out-maneuver them all.\n\nUnfortunately, this situation is compounded by a million-deep vanguard mercenary militia, hired by a billionaire aesthetician mogul in protest of your creature\'s sheer ugliness. It is not much longer until through a combination of nets, marbles, and paper clips, the poor thing is trapped by a tightly disciplined group of mercenary replicant hunters.\n\nActually, they are just a bunch of die-hard 80\'s sci-fi geeks who are stoked to finally get the chance to LARP a real fight. Who\'d have thunk they would be so effective? </string>
+
+    <string name="s_14">As the weeks and corpses pass by, it becomes increasingly It that the creature is simply not strong enough to continually withstand the onslaught of beating drums, shooting guns and flying nuns that assail it.\n\nIn a moment of temporary brilliance, it slathers itself in industrial strength Crisco (the kind that only comes off with a soldering iron) and takes off in evasive action. Unfortunately, guns can point up, and the creature is forced to continue its aerial evasion until it becomes so tuckered out it is forced to make an emergency landing at LAX. </string>
+
+    <string name="s_15">As the weeks and corpses pass by, it becomes increasingly It that the creature is simply not strong enough to defeat the onslaught of beating drums, shooting guns and flying nuns that assail it.\n\nIn a moment of temporary brilliance, it slathers itself in industrial strength Crisco (the kind that only comes off with a soldering iron) and takes off in evasive action. Unfortunately, it is so hideous that all countries (even North Korea) unite in an effort to purge the skies of the abomination, finally trapping it in a Kim Jong Un\'s private mobile bathroom. </string>
+
+    <string name="s_16">Unfortunately, much of the creature\'s speed is ruined by its terrible lack of judgment, as it just as soon flies into incoming projectiles than avoid them. Its exoskeleton quickly becomes overwhelmed, and in a blundering retreat it is harassed by crowds of anti-abomination protesters calling it Ugly-Butt, Barf-Face, and all sorts of hurtful names.\n\nIn all the abusive commotion, it accidentally activates its self-eject sequence and shoots straight up toward the moon.</string>
+
+    <string name="s_17">Unfortunately, much of the creature\'s speed is ruined by its terrible lack of judgment, as it just as soon flies into incoming projectiles than avoid them. Its exoskeleton quickly becomes overwhelmed, and despite its best efforts, it is so frazzled that it flies into a giant net, but not before grabbing the president\’s third cousin as a hostage.\</string>
+
+    <string name="s_18">Unfortunately, its raw power cannot overcome a crippling lack of dexterity, and the poor thing can do naught but plough along on a destructive, but ultimately wayward path. Worse yet, the randomness of death gives prince and pauper alike a common ground, and the Interwebs are filled with images of CEOs and dung shovelers holding hands in solidarity. The whole point was to make society <i>less</i> equal, gosh darn it.\n\nEventually, the Denny\'s corporation concocts a semi-elaborate maze based on its children\'s table placemats, which is then 3-D printed in concrete and airlifted around your creature, trapping it permanently.</string>
+
+    <string name="s_19">Unfortunately, its raw power cannot overcome a crippling lack of dexterity, and the poor thing can do naught but plough along on a destructive, but ultimately wayward path. Worse yet, the randomness of death gives prince and pauper alike a common ground, and the Interwebs are filled with images of CEOs and dung shovelers holding hands in solidarity.The whole point was to make society <i>less</i> equal, gosh darn it.\n\nIn In the end, the sheer ugliness of the beast inspires the millions of potential victims to throw everything from pots and pans to taxidermied elk at the thing, eventually trapping it in a hodgepodge of consumer goods.</string>
+
+    <string name="s_20">Unfortunately, its raw power cannot overcome a crippling lack of dexterity and utter idiocy, and the poor thing can do naught but plough along on an aimless path of destruction. You say \"Go left!\" and it gargles, continuing its wayward direction. Worse yet, the randomness of death gives prince and pauper alike a common ground, and the Interwebs are filled with images of CEOs and dung shovelers holding hands in solidarity. The whole point was to make society <i>less</i> equal, gosh darn it.\n\nIn the end, it rolls itself into a giant pit that wasn\'t even constructed as a defensive measure. Nope, just a regular old pit.</string>
+
+    <string name="s_21">Unfortunately, its raw power cannot overcome a crippling lack of dexterity and utter idiocy, and the poor thing can do naught but plough along on an aimless path of destruction. You say \"Go left!\" and it gargles, continuing its wayward direction. Worse yet, the randomness of death gives prince and pauper alike a common ground, and the Interwebs are filled with images of CEOs and dung shovelers holding hands in solidarity. The whole point was to make society <i>less</i> equal, gosh darn it.\n\nEventually, the creature becomes inconsolably sad that so many people are yelling mean things like \"ugly butt!\" at it, and rolls itself into Kim Kardashian\'s closet, refusing to come out. After a quick sell of the mansion, the new owner claims to have never seen your creature.</string>
+
+    <string name="s_22">Unfortunately, its unmatched agility cannot overcome a depressingly weak frame, and the poor thing can do naught but zoom from building to building, kicking the occasional puppy and engaging in failed Rochaembeau contests with irate Juggalos. All this commotion makes the army very angry, and they proceed to use an encirclement of net-equipped drones to capture the thing.</string>
+
+    <string name="s_23">Unfortunately, its unmatched agility cannot overcome a depressingly weak frame, and the poor thing can do naught but zoom from building to building, kicking the occasional puppy and engaging in failed Rochaembeau contests with irate Juggalos.\n\nSo grotesque is the creature that the military serves only as logistical support to an impromptu militia of drone enthusiasts and slingshotting Dennis the Menace wannabes who are dead set on the clearing the skies of such an aesthetic aberration. At least it meets its end as its beginning - sad and neglected.</string>
+
+    <string name="s_24">Unfortunately, its unmatched agility cannot overcome a depressingly weak frame and utter idiocy, and the poor thing can do naught but zoom in wayward circles in the sky, the only real damage done being to the hapless pigeon or hang gliding Meetup group.\n\nEventually, an encirclement of net-equipped military drones succeed in encircling the thing, bringing its, and your, ignominious adventures to an end.</string>
+
+    <string name="s_25">Unfortunately, its unmatched agility cannot overcome a depressingly weak frame and utter idiocy, and the poor thing can do naught but zoom in wayward circles in the sky, the only real damage done being to the hapless pigeon or hang gliding Meetup group.\n\nSo grotesque is the creature that many civilians stand in exposed positions, shouting very nasty epithets at it. This seems to make it very depressed, and it eventually slows into a moping, semi-circular aerial gait which serves as a half-hour tourist attraction before getting shot down by an impatient colonel.</string>
+
+    <string name="s_26">As deaths mount and your creature\'s injuries grow, the salient realization emerges that its speed and fortitude will fall substantially short of that required for total victory. Fortunately, while "The Big Bang Theory" taught us just how unfunny a purported comedy could be, it also showed that physical prowess is not the only way to the Winner\'s Circle.\n\nActivating \"Contingency Switch No. 6,\" you instruct the creature to transform into a super-hot television doctor, blending its fleshy, diminutive metamorphosis in with the countless other pasty white generic actors gallivanting around the screen and incorrectly diagnosing patients with Lupus. With a firebombing sleeper cell within the system, you proceed to negotiate with gusto.</string>
+
+    <string name="s_26_2">As deaths mount and your creature\'s injuries grow, the salient realization emerges that its speed and fortitude will fall substantially short of that required for total victory. Fortunately, while "The Big Bang Theory" taught us just how unfunny a purported comedy could be, it also showed that physical prowess is not the only way to the Winner\'s Circle.\n\nActivating \"Contingency Switch No. 3,\" you instruct the creature to transform into a Wall street banker, blending its fleshy, diminutive metamorphosis in with the countless other pasty white corporate shills walking along downtown. With a firebombing sleeper cell within the system, you proceed to negotiate with gusto.</string>
+
+    <string name="s_27">As deaths mount and your creature\'s injuries grow, the salient realization emerges that its speed and fortitude will fall substantially short of that required for total victory. Hoping to take advantage of its Einsteinian brain cage, you push for an advantageous parley.\n\nUnfortunately, due the poor bugger\'s utterly grotesque appearance, negotiators will only meet it in a screened confessional booth.</string>
+
+    <!--Head is in a museum-->
+    <string name="s_28">As deaths mount and your creature\'s injuries grow, the salient realization emerges that its speed and fortitude will fall substantially short of that required for total victory. The military brass has recruited some of the very best generals, including a precocious and world-weary teenager named \"Bean\" who keeps referring to the thing as a \"bloody Formic doppelganger,\" and who pursues it with relentless vigor.\n\nDesperate and up against the wall, you activate \"Contingency Switch No. 9,\" which instructs the creature to transform into a puppy.\n\nBefore it can be captured or killed, PETA, along with a gaggle of lonely Los Angelenos, rush to the adorable thing\'s aid and refused to allow it harm.</string>
+
+    <string name="s_29">You creature prances around idiotically, causing injuries and mild mayhem but failing terribly at any kind of logistical advance, the salient realization emerges that your current adventure may be very short lived. Its pathetic attempts to comprehend directives, or even recognize the difference between a military bunker and a brothel, lend itself to botched advances and several embarrassingly risque social faux pas.\n\nYou finally lose track of your creation as it wanders into a famous wax museum, and after a time it becomes apparent that it will not be returning. </string>
+
+    <string name="s_30">As deaths mount and your creature\'s injuries grow, the salient realization emerges that its speed and fortitude will fall substantially short of that required for total victory.\n\nDesperate and up against the wall, you  activate \"Contingency Switch No. 12,\" which instructs the creature to activate its self-destruct sequence. With an impressive nuclear bomb on a 60 minute timer that only you can abort, you press your temporary advantage and compel the powers that be to negotiate. Unfortunately, the current administration seems relatively unconcerned with the loss of human life. </string>
+
+    <string name="s_31">As deaths mount and your creature\'s injuries grow, the salient realization emerges that its speed and fortitude will fall substantially short of that required for total victory.\n\nDesperate and up against the wall, you  activate \"Contingency Switch No. 15,\" which instructs the creature to transform into a Cronenberg amalgamation of every terrifying nightmare in popular culture. Its new image, broadcast here and far, causes such a ruckus among children and weird adults who are scared of horror films that the democratically-conscious powers that be are forced to negotiate. Unfortunately, the current administration seems relatively unconcerned with the general welfare of its constituents. </string>
+
+    <string name="s_32">You creature prances around idiotically, causing injuries and mild mayhem but failing terribly at any kind of logistical advance, the salient realization emerges that your current adventure may be very short lived.\n\nIn a Hail Mary attempt to secure an advantage, you command the beast to destroy as many homes on the <i>Hollywood Stars Home Map</i>, hoping to bring the celebrity obsessed Americans to their knees.</string>
+
+    <string name="s_33">You creature prances around idiotically, causing injuries and mild mayhem but failing terribly at any kind of logistical advance, the salient realization emerges that your current adventure may be very short lived.\n\nIn a Hail Mary attempt to secure an advantage, you use the beast\'s utter grotesqueness to traumatize every bourgeois private school in Beverly Hills, counting on the parents to raise such a ruckus with their pocket politicians that concessions will be made toward you.</string>
+
+    <string name="s_34">It becomes quickly and sadly that your creature is woefully under-equipped for the task at hand. At times, it seems that a stiff breeze might knock it over, and barely can it evade the increasing degrees of armaments thrown at it.\n\nAs it seems like the axe is about to fall, a group from the fledgling PEDOS, or People for the Ethical Dealings with Ogre-like Sons shows up, insisting on the preservation of such a beautiful monstrosity for the ages. You really hope the acronym is just a coincidence. </string>
+
+    <string name="s_36">It becomes quickly and sadly apparent that your creature is woefully under-equipped for the task at hand. It can barely follow basic directions, and at times it seems that a stiff breeze might knock it over. In a Hail Mary attempt to secure an advantage, it manages to kidnap the pets of a few prominent politicians, hoping to bring some negotiating power to the table. Unfortunately, these politicians turn out to be B-rated actors that no one really cares about. </string>
+
+    <string name="s_37">It becomes quickly and sadly apparent that your creature is woefully under-equipped for the task at hand. At times, it seems that a stiff breeze might knock it over, and barely can it evade the increasing degrees of armaments thrown at it.\n\nUnfortunately, before you can formulate your next move, a fanatical mob of mole people emerge from the rubble and use the sheer weight of their numbers to force your creature down into their lair, proclaiming it their new grotesque king. </string>
+
+    <string name="s_52">They say that dung rolls downhill. Is that the expression? If it is, then it is apropos to the current situation, for that is all your creation can do. Sure, a few unlucky chicken-pedestrians and ugly stroller babies get their little lungs smashed to dust, but was that really what this whole ordeal was for? Whispering hope breaks eternal as the creature keeps rolling and rolling, until eventually it is out of sight and mind.</string>
+    <string name="s_52_2">Fortunately, a passing art gallery owner is so overwhelmed by the tragic beauty of the beast that he gently places it into the trunk of his Smart Car and carries to a new life as a third-tier interactive display.</string>
+    <string name="s_52_3">Fortunately, the creature is intelligent enough to be overwhelmingly aware of its dire predicament, and initiates the steel and bolts equivalent of a self-destruct sequence before any of the prodding government engineers can arrive to dissect it for information.</string>
+    <string name="s_52_4">Fortunately, its unmatched wit and beauty coalesce into a stirring, inspirational soliloquy on the evils of the modern nation-state and military-industrial complex. So moving is the thing that crowds of civilians gather round, mesmerized, and pledge to protect the creature from any impending threat. </string>
+
+    <string name="s_53">As the weeks and corpses pass by, it becomes increasingly apparent that the bullets and traps thrown at the creature are having an effect. Despite its brilliant Machiavellian scheming and delicious false flag operations behind enemy lines, it simply cannot contend with the seemingly infinite waves of ammunition and human meat that are sent.\n\nEventually, it traps the president in his palace water closet by pretending to be a towel, and uses this compromising situation as leverage.</string>
+
+    <string name="s_53_2">As the weeks and corpses pass by, it becomes increasingly apparent that the bullets and traps thrown at the creature are having an effect. Despite its brilliant Machiavellian scheming and delicious false flag operations behind enemy lines, it simply cannot contend with the seemingly infinite waves of ammunition and human meat that are sent.\n\nEventually, it decides to use its dashing looks to seduce the president\'s daughter, using her to trap the leader in the water closet and presenting a list of capitulating demands. </string>
+
+    <string name="s_54">As the weeks and corpses pass by, it becomes increasingly apparent that the bullets and traps thrown at the creature are having an effect. Despite its brilliant Machiavellian scheming, it is simply too ugly to command much support, and any attempts at disguise are readily seen through because there is no way to dress up a pile of metallic vomit as a Redcoat tourist.\n\nEventually, the dang thing gets pinned down by a mob of angry body builders turned aestheticians.</string>
+
+    <string name="s_55"> Unfortunately, its raw power cannot overcome a crippling lack of dexterity, and it becomes apparent that your creature is woefully under-equipped for the heavy task at hand. Its quick thinking allows it to negotiate its way out of certain defeat more than once, but even in its Machiavellian scheming, not many are receptive to the silver tongue of a hunk of steel.\n\nWith your options dwindling, you activate \"Contingency Switch No. 18,\" instructing the creature to transform into a fortified, electrified hunk of steel in the mansion district of Beverly Hills. The cohort of billionaire owners refuse to allow weapons or dirty soldiers into their immaculate grounds, and their moneyed clout keeps the politicians at bay. Eventually, the powers that be are forced to negotiate. </string>
+
+    <string name="s_55_2">Unfortunately, its raw power cannot overcome a crippling lack of dexterity, and it becomes apparent that your creature is woefully under-equipped for the heavy task at hand. Its quick thinking allows it to avoid certain defeat more than once, but even its Machiavellian scheming cannot dodge the draft of bullets tossed its way.\n\nAs options dwindle, it crashes into Fox News headquarters, commandeering their live broadcast and launching into an eloquent diatribe about the evils of large government trouncing the rights of man and machine alike. So articulate and beautiful is the thing that the Tea Party and their dark money billionaire backers launch a resurgence from the Astroturf, forcing the powers that be to the negotiation table.</string>
+
+    <string name="s_56">Unfortunately, its raw power cannot overcome a crippling lack of dexterity, and it becomes apparent that your creature is woefully under-equipped for the heavy task at hand. Though its quick thinking and silver tongue manage to extricate it from defeat on several occasions, that escape is as likely due to the need of others to escape from the bowl of rotten chili it uses as a face. \n\nWith few potential allies willing to look at it the thing, much less aid it, its fate is soon sealed.</string>
+
+    <string name="s_57">As the weeks and corpses pass by, it becomes increasingly apparent that the creature is simply not strong enough to continually withstand the onslaught of beating drums, shooting guns and flying nuns that assail it.\n\nFortunately, its brilliance allows it to leverage its speed in the attrition tradition of guerrilla warfare. It jumps from target to target, platoon to platoon, kicking butt and usually managing to zip away before any real harm comes to it. Eventually, the president himself, a man known for refusing to compromise even on permits for lemonade stands, presents his figurative nethers in a sign of parley.</string>
+
+    <string name="s_58">As the weeks and corpses pass by, it becomes increasingly apparent that the creature is simply not strong enough to continually withstand the onslaught of beating drums, shooting guns and flying nuns that assail it. \n\nFortunately, its brilliance allows it to leverage its speed in the attrition tradition of guerrilla warfare. It jumps from target to target, platoon to platoon, kicking butt and usually managing to zip away before any real harm comes to it.\n\nOn the flip side, so much PTSD is sustained from troops who were forced to make eye hole contact with the aesthetic abomination that an elite cadre of trauma troops, strung out to superhuman capability by their demons, manage to corner the creature through the odd marriage of suicide bombing and meth bayonet charges.</string>
+
+    <string name="s_59">Unfortunately, its unmatched agility cannot overcome a depressingly weak frame, and the poor thing can do naught but zoom from building to building, kicking the occasional puppy and engaging in failed Rochaembeau contests with irate Juggalos.\n\nIt quickly realizes the futility of this strategy. Fortunately, its brilliance allows it to leverage its speed in a deviously Machiavellian way, zipping from world leader to world leader and whispering rumors of international deceit and tattered alliances in their ears. Eventually, it has the guns of the world pointed at each other and largely ignoring itself. </string>
+
+    <string name="s_60">Unfortunately, its unmatched agility cannot overcome a depressingly weak frame, and the poor thing can do naught but zoom from building to building, kicking the occasional puppy and engaging in failed Rochaembeau contests with irate Juggalos. It quickly realizes the futility of this strategy.\n\nIts brilliance allows it to leverage its speed in a deviously Machiavellian way, zipping from world leader to world leader and whispering rumors of international deceit and tattered alliances in their ears. Unfortunately, silver-tongued though it is, the lumpy mashed potato visage that plagues the thing sows a primal disgust, if not outright distrust of its motives. Once the paranoia has worn off, the hunt against it resumes in earnest.</string>
+
+    <string name="s_61">As the weeks slowly pass, it becomes quickly and sadly apparent that your creature is woefully under-equipped for the task at hand. At times, it seems that a stiff breeze might knock it over, and barely can it evade the increasing degrees of armaments thrown at it.\n\nFortunately, its quick thinking allows it to kidnap Keanu Reeves, who just happens to be shopping at Target just like us regular folk, and use the man\'s worshipped celebrity as leverage.</string>
+
+    <string name="s_62">As the weeks slowly pass, it becomes quickly and sadly apparent that your creature is woefully under-equipped for the task at hand. At times, it seems that a stiff breeze might knock it over, and barely can it evade the increasing degrees of armaments thrown at it.\n\nThe otherwise brilliant interpersonal schemes it comes up with are largely thwarted by its hideous, rough in the rough aesthetics which cause even the most sympathetic anarchist to take a hard pass. There is little further hope as an errant flock of carrier pigeons crashes into it, disabling its already brittle metal bones. </string>
+
+    <!--Sugar daddy ending-->
+    <string name="s_70">Unfortunately, your creature hits a snag at the first concrete bunker it approaches, as it seems that ambling along in a half-gait, half-roll is not sufficient to dodge high caliber rifle rounds and rocket propelled grenades. Its unimpressive exoskeleton can barely hold as it manages to cleverly throw its voice, causing all the bunker buddies to think that Tom Hanks is reading bedtime stories in the next room.\n\nAs its temporary safe haven gives way to encroaching footsteps, it decides in a pinch of Hail Mary desperation to try, what the kids call, a \"makeover.\"</string>
+
+    <string name="s_71">Unfortunately, your creature hits a snag at the first concrete bunker it approaches, as it seems that ambling along in a half-gait, half-roll is not sufficient to dodge high caliber rifle rounds and rocket propelled grenades. Its unimpressive exoskeleton can barely hold as it manages to cleverly throw its voice, causing all the bunker buddies to think that Tom Hanks is reading bedtime stories in the next room.\n\nAs its temporary safe haven gives way to encroaching footsteps, it decides in a pinch of Hail Mary desperation to limp-charge into the nearest makeshift military tent where it finds, of all entities, IBM\'s supercomputer Watson directing strategic operations. With a ransom like that…</string>
+
+    <string name="s_72">Unfortunately, your creature hits a snag at the first concrete bunker it approaches, as it seems that ambling along in a half-gait, half-roll is not sufficient to dodge high caliber rifle rounds and rocket propelled grenades.\n\nAs it begins to orate the beginnings of a ventriloquism-based distraction, the creature is mistaken by a Dow Chemicals mercenary pilot as a landfill, and a a hail of toxic waste barrels rain upon it. He shouldn\'t of done that. He was just a boy. Poor lil\' fella. </string>
+
+    <string name="s_73">Unfortunately, your creature hits a snag at the first concrete bunker it approaches, as it seems that ambling along in a half-gait, half-roll is not sufficient to dodge high caliber rifle rounds and rocket propelled grenades. Neither strong nor smart enough to extricate itself effectively, the poor thing ends up surrounded by some very annoyed reservists who had been called up from Thailand\'s Escort Island where they were enjoying their government-funded extension course in ethics. \n\nLuckily, they are so enamored by its radiant visage that instead of turning it over to the butt-chewing brass, they decide to hold onto it for as long as possible, à la Weekend at Bernie\'s. </string>
+
+    <string name="s_74">Unfortunately, your creature hits a snag at the first concrete bunker it approaches, as it seems that ambling along in a half-gait, half-roll is not sufficient to dodge high caliber rifle rounds and rocket propelled grenades.\n\nNeither strong nor smart enough to extricate itself effectively, the poor thing ends up surrounded by a cadre of hyper-intelligent monkeys bred specifically for risky vanguard operations like this one. So fascinated are they by this metallic entity that they disobey their capture directive (can monkeys <i>really</i> be controlled?) and take the thing back to their jungle home. Which they have never seen. Because they were raised in a laboratory. But they just know.</string>
+    <string name="s_75">Unfortunately, your creature hits a snag at the first concrete bunker it approaches, as it seems that ambling along in a half-gait, half-roll is not sufficient to dodge high caliber rifle rounds and rocket propelled grenades.\n\nNeither strong nor smart enough to extricate itself effectively, the poor thing ends up surrounded by a cadre of hyper-intelligent monkeys bred specifically for risky vanguard operations like this one. Even worse, your failed giant is so hideous that rather than capture it, per their directive, the monkeys go ape and beat it into an inch of its robotic life.</string>
+
+    <string name="s_76">Unfortunately, between its shockingly uncoordinated movements and a breathtakingly slow comprehension of its surroundings, your sad little creation finds itself pinned between a rock and a hard place before it can even pass the city limits.\n\nAs it searches desperately for a way out, an eccentric billionaire in a private chopper scoops it up with a novelty size claw, proclaiming the thing so adorably idiotic that it must have it for some collection or other. </string>
+
+    <string name="s_77">Unfortunately, between its shockingly uncoordinated movements and a breathtakingly slow comprehension of its surroundings, your sad little creation finds itself pinned between a rock and a hard place before it can even pass the city limits. \n\nAs it searches desperately for a way out, a pack of stray dogs befriend it, allowing it to join their pack. As a beta, of course.</string>
+
+    <string name="s_78">Unfortunately, between its shockingly uncoordinated movements and a breathtakingly slow comprehension of its surroundings, your sad little creation finds itself pinned between a rock and a hard place before it can even pass the city limits.\n\nAs it searches desperately for a way out, a pack of stray dogs attack it with a ferocity unlike anything you have ever seen. You even swear that one growls \"mongrel!\" under its canine breath. Within moments, it is incapacitated.</string>
+
+    <string name="s_79">It becomes quickly and sadly that your creature is woefully under-equipped for the task at hand. At times, it seems that a stiff breeze might knock it over, and barely can it evade the increasing degrees of armaments thrown at it.\n\nAs it retreats from yet another barrage, it catches a glimpse of its reflection in the window of a shattered cafe, takes stock of both its situation and itself, and promptly activates its suicide script. Wait, who gave it that?</string>
+
+    <string name="s_80">As the minutes slowly pass, it becomes quickly and sadly apparent that your creature is woefully under-equipped for the task at hand. At times, it seems that a stiff breeze might knock it over, and its utter idiocy has it running toward more bullets than away from.\n\nJust when it seems all hope is lost, Larry Flynt happens to roll by at that exact moment and, perhaps in solidarity for the poor thing\'s handicapped frame, offers it a job as a fluffer. It seems the regular ones just aren\'t doing it for those stallions, anymore. </string>
+
+    <string name="s_81">As the minutes slowly pass, it becomes quickly and sadly apparent that your creature is woefully under-equipped for the task at hand. At times, it seems that a stiff breeze might knock it over, and its utter idiocy has it running toward more bullets than away from.\n\nJust when it seems all hope is lost…it is. The poor thing falls in a hail of angry gunfire.</string>
+
+    <string name="interlude">Your little excursion at an end, you admonish the beast to carry out its final charge and extract the maximum value for your valiant efforts…</string>
+
+    <string name="summary_one">Your creation\'s path of destruction has struck terror into the hearts of %1$s of the population, cowing them before you. Its intellectual prowess and aesthetic charm has swayed the hearts and minds of %2$s.</string>
+
+    <string name="summary_two">%1$s %2$s of the population no longer fear you, and %3$s no longer support you.</string>
+
+</resources>
+

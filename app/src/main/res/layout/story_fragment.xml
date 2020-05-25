@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:id="@+id/story_scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content">
+
+        <TextView
+            android:id="@+id/plot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingStart="8dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="4dp"
+            />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/plot"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/first_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/plot"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/White"
+            app:backgroundTint="@color/transparent"
+            app:cornerRadius="1dp"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="@color/dark_teal"
+            app:strokeWidth="2dp"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/second_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/first_choice"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/White"
+            app:backgroundTint="@color/transparent"
+            app:cornerRadius="1dp"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="@color/dark_teal"
+            app:strokeWidth="2dp"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/third_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/second_choice"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/White"
+            app:backgroundTint="@color/transparent"
+            app:cornerRadius="1dp"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="@color/dark_teal"
+            app:strokeWidth="2dp"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/fourth_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/third_choice"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/White"
+            app:backgroundTint="@color/transparent"
+            app:cornerRadius="1dp"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="@color/dark_teal"
+            app:strokeWidth="2dp"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/fifth_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/fourth_choice"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/White"
+            app:backgroundTint="@color/transparent"
+            app:cornerRadius="1dp"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="@color/dark_teal"
+            app:strokeWidth="2dp"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/continue_mission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/result"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/White"
+            app:backgroundTint="@color/transparent"
+            app:cornerRadius="1dp"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="@color/dark_teal"
+            app:strokeWidth="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/continue_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/plot"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/White"
+            app:backgroundTint="@color/transparent"
+            app:cornerRadius="1dp"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="@color/dark_teal"
+            app:strokeWidth="2dp"
+            android:textSize="12sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/continue_game"/>
+
+        <TextView
+            android:id="@+id/str_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/first_choice">
+        </TextView>
+
+        <TextView
+            android:id="@+id/dex_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/second_choice">
+        </TextView>
+
+        <TextView
+            android:id="@+id/temp_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/third_choice">
+        </TextView>
+
+        <TextView
+            android:id="@+id/obed_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/fourth_choice">
+        </TextView>
+
+        <TextView
+            android:id="@+id/char_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/fifth_choice">
+        </TextView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

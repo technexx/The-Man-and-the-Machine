@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="intro">
+        <item>Lo, Child of Blood.</item>
+
+        <item>The fruit of your father\'s life work lay before you, aided in no small part by your own contributions.</item>
+
+        <item>The layman might call it a machine, though you know it to be so much more.</item>
+
+        <item>It is a world-breaker, a king-maker, an operatic symphony of seamlessly flowing metallic notes. Buried within are materials so niche and archaic that even should a schematic see the light of day, to replicate its workings would be impossible. </item>
+
+        <item>Upon his death, you swore that once finished, you would not hesitate in bringing its full force to bear on the society that shunned your genius. And to what end, you might ask? </item>
+
+        <item>To take over the world with a creature of mass destruction, obviously!</item>
+
+    </string-array>
+
+    <!--Machine Stats-->
+
+    <string-array name="creation_strength">
+        <item>Impotent</item>
+        <item>Frail</item>
+        <item>Mediocre</item>
+        <item>Reliable</item>
+        <item>Substantial</item>
+        <item>Herculean</item>
+    </string-array>
+
+    <string-array name="creature_dexterity">
+        <item>Blundering</item>
+        <item>Ungainly</item>
+        <item>Awkward</item>
+        <item>Stable</item>
+        <item>Agile</item>
+        <item>Masterful</item>
+    </string-array>
+
+    <string-array name="creation_intelligence">
+        <item>Imbecilic</item>
+        <item>Stupid</item>
+        <item>Dim</item>
+        <item>Thoughtful</item>
+        <item>Bright</item>
+        <item>Genius</item>
+    </string-array>
+
+    <string-array name="creation_loyalty">
+        <item>Traitorous</item>
+        <item>Dubious</item>
+        <item>Questionable</item>
+        <item>Agreeable</item>
+        <item>Steadfast</item>
+        <item>Unflinching</item>
+    </string-array>
+
+    <string-array name="creation_beauty">
+        <item>Leprous</item>
+        <item>Repulsive</item>
+        <item>Unpleasant</item>
+        <item>Fair</item>
+        <item>Attractive</item>
+        <item>Adonis</item>
+    </string-array>
+
+    <string-array name="temp_desc">
+        <item>Its incorruptible loyalty was paramount in securing your best interests, as well as it could. I mean, you should have seen the way it slavered over you. It was actually pretty gross. As a result, you have retained all of your fear and support.</item>
+        <item>Though quite loyal, it couldn\'t help bad-mouthing you just a bit. Mostly about the smells.</item>
+        <item>Though somewhat loyal, it did bad-mouth you a bit during the whole ordeal. Apparently there was something about being exposed to new areas and ideas that just opened its brain cage to the concept of freedom.</item>
+        <item>Its fickle loyalty had it talking quite a lot of trash about you, though, including some particularly ugly rumors about a misplaced Jolly Rancher.</item>
+        <item>The darn thing was pretty vocal in its disdain for you, though, and by the time it was done, many of your terrified victims and stratocratic supporters faded away. </item>
+        <item>However, the traitorous bastard painted such a snivelling, urine-soaked pantaloons portrait of you that most of your cowed victims and stratocratic supporters exclaimed \"p-tooey!\" and wandered off.</item>
+    </string-array>
+
+    <string-array name="quirks">
+        <item>Vocalist</item>
+        <item>Reiki Practitioner</item>
+        <item>Berserk</item>
+        <item>Swoll</item>
+        <item>Avaricious</item>
+        <item>Buoyant</item>
+        <item>Bibliophile</item>
+        <item>Exhibitionist</item>
+    </string-array>
+
+    <string-array name="quirk_reveal">
+        <item>Sonorous vocalist</item>
+        <item>Screeching vocalist</item>
+        <item>Soothing practitioner</item>
+        <item>Unnerving practitioner</item>
+        <item>Controlled berserk </item>
+        <item>Unhinged berserk </item>
+        <item>Buff swoll</item>
+        <item>Glamour muscle swoll</item>
+        <item>Sentimentally avaricious</item>
+        <item>Voraciously avaricious</item>
+        <item>Flexibly buoyant </item>
+        <item>Manically buoyant </item>
+        <item>Erudite bibliophile</item>
+        <item>Tabloid bibliophile</item>
+        <item>Ethical exhibitionist</item>
+        <item>Narcissistic exhibitionist</item>
+    </string-array>
+
+    <string-array name="quirk_injection">
+        <item>The creature will be a singer, and a good one at that. This might help…somehow.</item>
+        <item>The creature will be a singer, and a terrible one at that. That couldn\'t really hurt, right?</item>
+        <item>The creature understands the intricacies of the ancient art of Reiki, which you understand to be some sort of sandwich.</item>
+        <item>The creature understands just enough about the ancient art of Reiki to self-diagnose, much like the armchair doctors on WebMD. </item>
+        <item>The creature will have quite a bit of controlled energy in reserve.</item>
+        <item>The creature will have quite a bit of untamed energy in reserve.</item>
+        <item>The creature is somehow growing synthetic muscle by daydreaming about the gym. Who would have thunk that\'s a thing?</item>
+        <item>The creature is daydreaming about giant, synthetic biceps, and nothing more. This might get weird.</item>
+        <item>The creature, strangely, has a strong appetite for trinkets and doodads. Thankfully, you have them in abundance.</item>
+        <item>The creature, oddly enough, is obsessed with money despite having no use for it. Unfortunately, you don\'t carry cash and you are not optimistic about it accepting a wire transfer.</item>
+        <item>The creature is doing yoga in the womb, and will clearly be the better for it. How do you know this? Well, how do <i>you</i> know what I know?</item>
+        <item>The creature is, somehow, exhibiting all the mechanically equivalent in vivo symptoms of a meth head. How?</item>
+        <item>The creature\'s synthetic cerebrum appears to be devouring literature from the freely licensed Harvard and Yale Cloud library at a voracious pace. I guess all that gestation is giving it cabin fever.</item>
+        <item>The creature\'s synthetic cerebrum appears to be devouring tabloids from the Cloud archives like its last day on Earth. Silly child, that day will come soon enough. </item>
+        <item>The creature will relish having eyes on it, just for the sake of the craft. The craft of being watched. </item>
+        <item>The creature will apparently have a strong desire to be watched, gawked at, and sought after like a reality TV floozy.</item>
+    </string-array>
+
+
+    <string name="san_cap"> However, Since you are already as insane as they come, you\'ll likely notice no real difference.</string>
+    <string name="loy_capHigh">However, your creature\'s loyalty is already beyond question, so this will hardly make a difference.</string>
+    <string name="loy_capLow"> However, your creature is already at the pinnacle of perfidy, and you will scarce notice any further betrayal. </string>
+    <string name="str_capHigh">However, since the beast is already at the pinnacle of its power prowess, this will really not have an effect.</string>
+    <string name="str_capLow">However, the poor thing is already so terribly weak that this will hardly make a difference.</string>
+    <string name="dex_capHigh">However, the poor thing is already at the pinnacle of nimble finesse, this will really not have an effect.</string>
+    <string name="dex_capLow"> However, the poor thing is already so uncannily uncoordinated that this will hardly make a difference.</string>
+    <string name="int_capHigh">However, since the beast is already at the pinnacle of intellectual prowess, this will really not have an effect.</string>
+    <string name="int_capLow">However, the poor thing is already so terribly dumb that this will hardly make a difference.</string>
+
+    <string name="increase_ter">As a result, a further %1$s%% of the population becomes terrified of you.</string>
+    <string name="decrease_ter">As a result, your fearful reputation shrinks and %1$s%% more of the population now thinks you\'re rather wussy.</string>
+    <string name="increase_sup">As a result of these costly efforts, you have gained a %1$s%% increase in popular support.</string>
+    <string name="decrease_sup">As a result of these botched efforts, you lose %1$s%% of popular support.</string>
+
+    <string-array name="end_wealth">
+        <item>Your practically limitless wealth gives you license to bribe the most powerful men and women in the world</item>
+        <item>Your substantial wealth gives you license to bribe key leaders in influential nations,</item>
+        <item>Your respectable wealth gives you license to bribe several prominent jurists and regional politicians</item>
+        <item>Your unenviable wealth only allows you license to bribe dubious low-ranking military enlistees and corrupt police chiefs</item>
+        <item>Your impoverishment level of wealth only allows you to secure the legal services of Saul Goodman against the vengeful backlash that now descends upon you</item>
+        <item>As we all know, money runs the world. Your destitute lack of wealth has left you no recourse against the vengeful backlash that now descends upon you</item>
+    </string-array>
+
+    <string-array name="end_sanity">
+        <item>and you are lucid enough to</item>
+        <item>however you make a few lapses in judgment and</item>
+        <item>however your loosed cranial cogs are prone to errors in judgement, and</item>
+        <item>though your mushified brain flubs much of the logistics, and</item>
+        <item>though your severely dampened lucidity constrains the process, and</item>
+        <item>though unfortunately you are utterly insane, and</item>
+    </string-array>
+
+    <string name="no_wealth_insanity">and your terribly addled wits do not help matters any further.</string>
+
+    <string-array name="bribes_zero_one">
+        <item>take full advantage of this, bringing their considerable influence to bear. Which bear? Black bear.</item>
+        <item>mistake the King of Georgia for the governor of the homonymous U.S. state, who wields substantially less power.</item>
+        <item>you insist that for every dollar wired to the offshore slush fund, another dollar is donated toward Rabies Awareness Week.</item>
+        <item>you start handing out cash to every man in a suit and hat, insisting they must be part of the corporate Illuminati.</item>
+        <item>your method of dispersal is inviting potential marks to join you, nude of course, in a giant wading pool full of money and jewels, telling them they can keep whatever fits in their body. </item>
+        <item>blow half of your assets betting against the Harlem Globetrotters, and store the other half in squirrel nests around the city.</item>
+    </string-array>
+
+    <string-array name="bribes_two">
+        <item>take full advantage of this, ensuring that the scaly wheels of justice are properly greased. </item>
+        <item>mistake an ornery New York transplant judge for Judge Judy and insisting on an autograph and picture with her bailiff, Byrd, before signing over the check. Notwithstanding the mistaken identity, she is offended that you\'re more enamored with her bailiff.</item>
+        <item>you insist on being the board of directors that oversees the slush money distribution, despite being repeatedly told that no public organization exists for such blatant illegality.</item>
+        <item>you insist on publishing all the names and faces of your cash recipients your Instagram because you will be gosh darned if all your generosity goes unacknowledged. </item>
+        <item>you decide to only pay off individuals whose last name begins with \"X,"\ because that is where most of your treasure is buried.</item>
+        <item>decide to show up to the lead prosecutor\'s house with $300 and a 24-pack of Pabst.</item>
+    </string-array>
+
+    <string-array name="bribes_three">
+        <item>at least do this properly.</item>
+        <item>attempt to bribe a frat bro wearing a t-shirt that says \"Plain Clothes Cop,\" which though it did net you some Natty Lights, is still pretty embarrassing.</item>
+        <item>you insist being made cop-for-a-day, which is strangely granted, but offers you way more exposure than is prudent at the moment.</item>
+        <item>convert all of your assets into pennies before handing them out, insisting that the copper\'s value increases the overall value.</item>
+        <item>you spend the majority of your funds on giant novelty checks to each recipient.</item>
+        <item>you convert all of your assets into Beanie Babies before handing them out, convinced that their second boom is close at hand.</item>
+    </string-array>
+
+    <string-array name="bribes_four">
+        <item>to take full advantage of the relationship.</item>
+        <item>give him a key to your front door, which is sometimes used for non-business excretory purposes.</item>
+        <item>you insist on meeting his less savory associates, which leave you with a moderate case of PTSD.</item>
+        <item>you allow him to use your full-faced testimony in his billboard ads.</item>
+        <item>you mistakenly hire his unknown brother, Paul Badsin, who does exorcisms and simply tells you to take a chill pill.</item>
+        <item>murder the man in a fit of delusion, thus disappointing fans eagerly waiting for the 6th and concluding season of the show.</item>
+    </string-array>\
+
+    <string name="no_bribes">with no further bargaining power.</string>
+
+    <string-array name="end_endurance">
+        <item>You have retained your robust physical health and terrifyingly evil glow, and the crowds cower before your intimidating threats and promises of renewed mechanical mayhem,</item>
+        <item>You are in good overall physical shape, and spin rather convincing tales of creatures in the dark, under your command, coming to eat the children of your victims,</item>
+        <item>You are in fair physical shape, and manage to convey a mildly threatening persona to the world,</item>
+        <item>Your body has suffered a fair amount, and your attempts to further intimidate the world into submission do not amount to much.</item>
+        <item>Your physical condition is quite dire. You have to be wheeled out for most interviews, and attempts to further intimidate the world are either laughed at or ignored. </item>
+        <item>Your body is a withered husk, and the Paparazzi plaster its sickly, immobile shell with unflattering captions on the cover of every major supermarket magazine, turning you into the poster child of impotency. </item>
+    </string-array>
+
+    <string-array name="endurance_sanity">
+        <item>and the crowds tremble.</item>
+        <item>though you turn a few folks off by making some rather inane remarks about Mister Rogers\'s sexual history.</item>
+        <item>though your addled brains fudge it up by swatting at invisible mosquitoes and claiming to have the cure for empathy.</item>
+        <item>though this is short-lived, as you soon begin ranting about government fluoride poisoning and 5G conspiracies.</item>
+        <item>though you ruin most of it by insisting reporters play \<i>\"Hide and Seek\"</i> with you while you crouch down behind the podium muttering something about Jacksonville, Florida.</item>
+        <item>though your long-gone mind screws the whole pooch by going into baby-talk mode, soiling yourself, and insisting one of the reporters come play with you.</item>
+    </string-array>
+
+    <string name="next_transition">\n\nWith your bribes in place, you have lost %1$s of your conquered territory, while your public appearances have cost you %2$s support. Your influence is such that you %3$s.\n\n</string>
+
+    <string-array name="end_home_good">
+        <item>You live outside of space, time, and the restriction of applied physics. So impressed by your utterly unmitigated domination over every living thing on the planet, Zeus himself plucked you from the dirty dregs of earthly mortality and elevated you to the top ranks of the gods.\n\nYour every wish is fulfilled preemptive of its thought, your every urge sated before it begins, and every vestige of negative emotion stripped away like the useless carrion it is. Comforts and pleasures beyond imagination are constant, everywhere, and undiminished by the mortal coil of neurotransmitters.\n\nThis is it, and it is good.</item>
+        <item>You live in a playground of dreams, sated desires, and comfort incarnate. The powers that were forced by your unprecedented influence to offer you a high-grade ascension into the ethereal plane.\n\nKept heavily secret and normally accessible only to those with scarily Illuminati-type levels of influential wealth like the remaining Koch brother, this area is the gateway between mortals and immortals.\n\nYou have access to strata four of five, which means that in addition to commanding those below to do your bidding, you are given an army of scantily clad, obsequious angel servants to carry out your every wish, a \"Summon Your Heart\'s Desire and Poison Your Enemies\" box with unlimited charges, and a place at the feasting table of Zeus himself. Yes, you\'re also privy to the one true religion.  </item>
+        <item>You live in a bastion of fluffy clouds and pixie dreams. The powers that were forced by your substantial influence to offer you a mid-grade ascension into the ethereal plane.\n\nKept heavily secret and normally accessible only to those with scarily Illuminati-type levels of influential wealth like the remaining Koch brother, this area is the gateway between mortals and immortals.\n\nYou have access to strata three of five, which means that in addition to commanding those below to do your bidding, you are gifted an array of scantily clad, high-class angel servants, a \"Summon Anything Your Heart Desires\" box with 3 charges per day, and mingling rights with any dead celebrity of B-list or lower. </item>
+        <item>You live in a swirl of clouds and angel dust. No, not that kind of angel dust. The powers that be yielded to your influence and offered you a low-grade ascension into the ethereal plane.\n\nKept heavily secret and normally accessible only to those with scarily Illuminati-type levels of influential wealth like the remaining Koch brother, this area is the gateway between mortals and immortals.\n\nYou are limited to the second of five strata, which means that in addition to commanding those below to do your bidding, you are gifted several minor angels as servants, and your cloud suite comes with HBO and Showtime. </item>
+        <item>You live on an array of clouds underneath the Amalfi Coast. Impressed by your clout, the powers that be offered you an entry-level ascension into the ethereal plane.\n\nKept heavily secret and normally accessible only to those with scarily Illuminati-type levels of influential wealth like the remaining Koch brother, this area is the gateway between mortals and immortals.\n\nYou are limited to the first of five strata, but those below know the kinds of beings that reside above, and you can command virtually anyone to do your bidding. Also, your cloud bed is ridiculously comfy. </item>
+
+        <item>You live in opulent decadence within the presidential palace. This is the president of the <i>WORLD</i>, mind you. Though your official title is that of adviser, you essentially have de facto control of pretty much everything. Armies of lawyers, venal politicos and dark money stand ready to do your bidding.\n\nA certain country vexing you? Nuke \'em off the map and blame the president. Want to sit back and let things run themselves while monkey butlers bring you Maker\'s 46 and a Meat Lovers pizza? Sure thing, boss. Oh, and Elon Musk and you are pretty much like BFFs.\n\nThis is the pinnacle of the <i>earthly</i> realm.</item>
+        <item>You live in enviable luxury within the White House, in special wing having been built just for you. Ostensibly constructed for security and privacy, it mainly serves to keep the sounds and smells of your daily depravities from civilized political discourse.\n\nThough your official title is that of adviser, you essentially have de facto control of the president and most legislators through your army of lawyers, venal politicos and dark money. Granted, you still have to contend with other silly, under-equipped nations trying to assert their economic and political interests, but they usually back down once you stage a few low-key assassinations and kidnappings. Not <i>too</i> shabby. </item>
+        <item>You live in a palace of luxury that makes the Versailles of old look like a rat trap hotel, and even the most opulent Saudi princes glare upward enviously at your unprecedented holdings.\n\nYou possess an impressive makeup of lawyers, venal politicos and dark money that are happy to do your bidding, though you lack any nominal authority on the government\'s behalf. All the better, you tell yourself, because who wants to explain to some military bureaucrat why you had the mayor of your rural hometown splayed on a spitfire for some minor injustice 40 years ago?.</item>
+        <item>You live in an chateau fortress along the French Riviera, several dozen homes and residents being demolished for the purpose. One of the displaced 90-year old double war veterans put up a fuss, but you had him tossed in a well.\n\nYou possess a respectable contingent of lawyers, venal politicos and dark money that can be utilized in strategic bursts for personal gain, like when you decided that Larry David wasn\'t making enough time for you.\n\nYou are able to wield power in a limited, mostly self-serving fashion, but you tell yourself that really is for the better, because who needs the kind of noise that comes with real power?</item>
+        <item>You live in a giant medieval castle, imported from the Castle District in France just for your benefit and situated on the block where your former childhood bully, Sven, now lives with his three unseemly children and failing marriage. No, he hasn\'t suffered enough.\n\nYou possess a small cadre of lawyers, venal politicos and dark money that are able to extract any goods or services you may require, in addition to intimidating or \"disappearing\" persistent nuisances. You are an untouchable force in your own right, though lack the necessary clout to say, force the movie theatre across the way to show your recently completed indie film, <i>\"Dreams of a Better Tomorrow.\"</i> </item>
+
+
+        <item>You live in a respectable, well-appointed mansion in the heart of Beverly Hills. It\'s a bit stuffy and bougie, to be sure, but you did meet an affable entrepreneur named Karen who has generously brought you into her multi-level marketing business. You possess a few high-priced lawyers on retainer, and can occasionally call in a favor from some big-wig in Washington, D.C. to create or eliminate a problem, but for the most part are excluded from the power game. Still, you feel your dad would be proud if whatever ethereal plane got stuck with him managed to cure his terrifying psychopathy.</item>
+        <item>You live in a modern, professionally managed two-bedroom apartment in Hollywood Hills. Sure, it overlooks an encampment of meth addicts and there\'s a constant dripping sound that you just <i>can\'t</i> locate, but at least you finally have a bit of fresh, glass pipe infused air.\n\nYou possess one high-priced personal attorney to fend off any future litigation, a couple of respectable legislators on your payroll, and just enough clout to bypass the zoning authorities when you want to expand your outdoor collection of flayed squirrel art. Though you lack any world-dominating power, you are free to indulge in the life of a hedonist of old. Heck, did you know they didn\'t even have digital thermostats back then?</item>
+        <item>You live in a sparse, yet clean studio apartment in the up-and-coming neighborhood of Inglewood, California. It\'s just slightly bigger than your first place right after college, only this time it comes with a stove instead of a hot plate. Saul Goodman returns your calls at his convenience, and is just effective enough to keep the barrage of property damage and wrongful death lawsuits off your back.\n\nYour influence has waned to essentially zero, having exhausted most of your resources to avoid the worst of the backlash against your failed coup on civilized society. Who\'d have thunk that attempting to enslave 7.5 billion people was a sore spot?</item>
+        <item>You live in huge, dilapidated warehouse, makeshift converted into 18 tiny rooms shared by 54 people. They are struggling artists all, from Mickel who makes Scorsese-length claymation period pieces out of Playdough, to Meghan who dresses her feet up like endangered species while her fingers guns hunt them. You are the exception, of course, with the only obvious upside being you have quite a long time to figure out exactly what went wrong in your life. \n\nYou are bled dry of resources, having exhausted them to avoid the worst of the backlash against your attempted coup on civilized society. You have several thousand civil suits against you ranging from destruction of a national treasure to the wrongful death of a school bus full of nuns. You know what they say about blood and turnips, though. Speaking of which, Mickel is making dinner again. </item>
+        <item>You live in a damp, moldy bachelor pad in South Los Angeles, nestled underneath the loudest part of the 110 Freeway. Your wallet and influence are bled beyond dry, but it is not enough to fend off the thousands of lawsuits and millions of people out for your blood. The only thing that keeps you out of chains is a last-minute deal struck with an orange devil who really took a liking to your disdain for progressive humanity, capricious decision making and collection of red hats.</item>
+
+        <item>Your place of residence is split between a transitory homeless dormitory and a gutted Chevy Astro van that is still not paid off. If you ignore the bedbugs, roaches, mice and ghosts, the dormitory is definitely the more comfortable of the two abodes, though you are convinced a Nurse Ratched doppelganger keeps stealing your shoes when you are asleep.\n\nThe Monster Beverage Company, purveyors of such popular drinks as Monster Energy, have in their capitalistic pity given you a minor spokesperson gig. Though the pay is decent, the majority is garnished to pay for the innumerable civil lawsuits levied against you, and this will not end until you are dead.\n\nYou will never know peace in your lifetime.</item>
+        <item>You live in a 1974 Ford Pinto that cannot turn left. Fortunately, three right turns and you\'re pretty much there. Your meager collection of belongings would make a Dust Bowl indigent weep, and definitely does the same to you.\n\nThe pittance of government cheese you collect is garnished at a usurious 98\%, leaving you just enough for a twice-daily repast of Costco hot dogs and Ikea Swedish meatballs. The civil judgements against you will not abate in your lifetime, and occasionally, despite the tinted windows, an angry person will recognize you and you have to three-turn it out of there.\n\n\This is your ending. </item>
+        <item>You live under a bridge in the Miserable District, an inspired name given to the up and coming, down and crumbling ruins of halcyon American industry. Its denizens are a quirky bunch, ranging the gamut from down-on-their-luck self-proclaimed sophistcants to schizophrenic twelve-man fighty gangs.\n\nAny time you manage to get more than \$50 on you, your debtor\'s ankle bracelet goes off and within minutes a couple of bored looking federal drones show up to shake you down for it. By conservative estimates, your arrears from the barrage of civil suits and damage judgements against you should be clear in no time at all. To be clear, that means they will never be clear.\n\nIt could be worse, right?</item>
+        <item>You live in a trash can by the docks. Which docks? Like, really, what does it matter? What would you even do with that information?\n\nOn a good day, the local eateries deposit a treasure trove of well-seasoned and non-spoiled meats for you to gorge on. On a bad day, which is all of them, you get open market offal and doggy poo bags. You owe millions in civil lawsuits for damages, and every time someone feels pity enough to hand you a few bucks, it gets snatched by the homeless guard hired by the government to pay down the balance.</item>
+        <item>You live in a parallel dimension full of what you assume to be demons. I mean, they sort of look like what some artistic representations show demons to be, but everything kind of looks like something.\n\nThey like to poke you. They like to prod you. Their especial favorite is doing both at once while sitting on your face. On their equivalent of Sundays, you get flayed on a spitfire and somehow survive to repeat the little charade for what you assume is at least your lifetime, if not eternity.\n\nWhat a time to be alive. </item>
+
+    </string-array>
+
+    <string-array name="end_home_bad">
+        <item>You reside in the bourgeois ward of a minimum security prison in Lompoc, California. Though the tennis courts were removed a few months prior to your arrival, the recreational facilities are better than your old public high school. There are communal subscriptions to Netflix and Hulu, and the inmate commissary carries your favorite off-brand Cheetos.</item>
+        <item>You reside in the Oswald Correctional Facility 3.0. Their selling point (as if one were browsing) is a two-fold reduction in violence since version 2.0, and a ten-fold decrease since the 1.0 OG crew of Tim McManus and Warden Leo Glynn left. </item>
+        <item>Your reside in the general population ward of a medium security prison in Lancaster, California. It\'s fine. I mean, it\'s terrible, but it\'s fine. </item>
+        <item>You reside in the general population ward of a high security prison in Chino, California. It\'s first claim to fame is extra-jolty fences, and the second its use of the cattle prod as a humane herding device.</item>
+        <item>You reside in administrative segregation deep within the bowels of a supermax prison facility in Del Norte County, California. You are allowed one hour of exercise a day, and that hour is spent running from mean men with pointy objects.</item>
+        <item>You currently sit on Death Row while appeal denials are being fast tracked through the court system so quickly that by the end of this sentence you may just be… </item>
+    </string-array>
+
+    <string-array name="d_1">
+        <item>deep</item>
+        <item>thunderous</item>th
+        <item>wailing</item>
+        <item>terrible</item>
+        <item>booming</item>
+        <item>shrill</item>
+        <item>wracking</item>
+        <item>piercing</item>
+        <item>rumbling</item>
+        <item>disturbing</item>
+    </string-array>
+
+    <string-array name="d_2">
+        <item>hiss</item>
+        <item>scream</item>
+        <item>cry</item>
+        <item>reverberation</item>
+        <item>anguish</item>
+        <item>plea</item>
+        <item>boom</item>
+        <item>wail</item>
+        <item>grumble</item>
+        <item>shriek</item>
+    </string-array>
+
+    <string-array name="d_3">
+        <item>thunders</item>
+        <item>pitches</item>
+        <item>sobs</item>
+        <item>bellows</item>
+        <item>growls</item>
+        <item>cries</item>
+        <item>thumps</item>
+        <item>beats</item>
+        <item>bellows</item>
+        <item>sings</item>
+    </string-array>
+
+    <string-array name="d_4">
+        <item>the device\'s inner bowels</item>
+        <item>the fragile innards of the device</item>
+        <item>columns of pneumatic pumps</item>
+        <item>rows of capacitors</item>
+        <item>a stack of turbine engines</item>
+        <item>the front ventilators</item>
+        <item>a cluster of pistons</item>
+        <item>one of the radioactivity shields</item>
+        <item>the dark matter storage boxes</item>
+        <item>the God particle accelerator</item>
+    </string-array>
+
+    <string-array name="d_5">
+        <item>going awry</item>
+        <item>breaking down</item>
+        <item>wearing down</item>
+        <item>deteriorating</item>
+        <item>falling apart</item>
+        <item>rusting through</item>
+        <item>melting away</item>
+        <item>eroding</item>
+        <item>collapsing</item>
+        <item>imploding</item>
+    </string-array>
+
+    <string-array name="d_6">
+        <item>strength</item>
+        <item>electrical</item>
+        <item>nuclear</item>
+        <item>conductive</item>
+        <item>fission</item>
+        <item>hydrogen</item>
+        <item>turbine</item>
+        <item>hydroelectric</item>
+        <item>thermal</item>
+        <item>solar</item>
+    </string-array>
+
+    <string-array name="d_7">
+        <item>electrical chamber pot</item>
+        <item>quark receptacle</item>
+        <item>quantum bungalow</item>
+        <item>current facilitator</item>
+        <item>particle wave synthesizer</item>
+        <item>sentience trap</item>
+        <item>artificial intelligence confabulator</item>
+        <item>neat little steel package</item>
+        <item>array of string theories</item>
+        <item>radioactive jean pocket</item>
+    </string-array>
+
+    <string-array name="d_8">
+        <item>sparks</item>
+        <item>debris</item>
+        <item>shards</item>
+        <item>chunks</item>
+        <item>pieces</item>
+        <item>shavings</item>
+        <item>blocks</item>
+        <item>jagged edges</item>
+        <item>slivers</item>
+        <item>pellets</item>
+    </string-array>
+
+    <string-array name="d_9">
+        <item>steam</item>
+        <item>smoke</item>
+        <item>vapors</item>
+        <item>acid</item>
+        <item>sludge</item>
+        <item>oozing gel</item>
+        <item>molasses</item>
+        <item>lava</item>
+        <item>fumes</item>
+        <item>mist</item>
+    </string-array>
+
+    <string-array name="d_10">
+        <item>pours</item>
+        <item>belches</item>
+        <item>vomits</item>
+        <item>expels</item>
+        <item>expectorates</item>
+        <item>oozes</item>
+        <item>is launched</item>
+        <item>escapes</item>
+        <item>plumes</item>
+        <item>bellows</item>
+    </string-array>
+
+    <string-array name="d_11">
+        <item>quantum fidget spinners</item>
+        <item>fanged synergistic rod towers</item>
+        <item>delineated crackerjack pipes</item>
+        <item>array of spiked conductors</item>
+        <item>gyrating tears of pearls</item>
+        <item>soul-bounded manacles</item>
+        <item>fandangling information highway</item>
+        <item>slicked back corn rows</item>
+        <item>glistening turbine peaks</item>
+        <item>stacked steam towers</item>
+    </string-array>
+
+    <string-array name="d_12">
+        <item>mass of sophisticated metal plates</item>
+        <item>inert pile of de-activated krill</item>
+        <item>flat moon surface of a gyroscope base</item>
+        <item>slippery slope of carbonized letterhead</item>
+        <item>laminated second-dimension hyper-kit</item>
+        <item>solidified sandcastle of electrodes</item>
+        <item>singular irreplaceable plastic space widget</item>
+        <item>diamond-encrusted cylindrical gravity well</item>
+        <item>continuously rejuvenated freshly baked apple pie </item>
+        <item>flayed squirrel replication mat</item>
+    </string-array>
+
+    <string-array name="d_13">
+        <item>flickers with mad purpose</item>
+        <item>beams wildly before collapsing in, and then reforming</item>
+        <item>screams with the force of a thousand banshees</item>
+        <item>grows as if infused with magic mushrooms, before pulling back into homeostasis</item>
+        <item>sprays a soothing fungal over nearby targets</item>
+        <item>emit a baritone soliloquy based on an obscure one-man show detailing the horrors of spoiled food </item>
+        <item>performs an oddly anthropomorphic tap dance without limbs or shoes</item>
+        <item>puffs up like a steroid-infused chicken</item>
+        <item>gallops around the room, but not quite like a horse</item>
+        <item>protrudes blaring, multi-colored sirens from dozens of hidden orifices</item>
+    </string-array>
+
+    <string-array name="d_14">
+        <item>cooked up</item>
+        <item>manufactured</item>
+        <item>created</item>
+        <item>put together</item>
+        <item>built</item>
+        <item>harried together</item>
+        <item>thoughtfully arranged</item>
+        <item>meticulously aggregated</item>
+        <item>lovingly brewed</item>
+        <item>mashed up</item>
+    </string-array>
+
+    <string-array name="d_15">
+        <item>a melodic plomp</item>
+        <item>a sonorous jingle</item>
+        <item>a not wholly unpleasant chime</item>
+        <item>a discordant thump</item>
+        <item>a rancorous scraping</item>
+        <item>a God-fearing symphony</item>
+        <item>a resplendent tonal arrangement</item>
+        <item>a manic auditory beacon</item>
+        <item>a harrowing mechanical screech</item>
+        <item>a siren\'s hypnotic call</item>
+    </string-array>
+
+    <string-array name="d_16">
+        <item>a meditative method</item>
+        <item>a Zen state of being</item>
+        <item>a hypnotic trance</item>
+        <item>a self-induced opioid-like trance</item>
+        <item>an ancient warrior repose</item>
+        <item>a relaxation exercise</item>
+        <item>a calming power animal manifestation</item>
+        <item>a low-level lobotomy method</item>
+        <item>a dance of calming sensuality</item>
+        <item>a trick of the addled mind</item>
+    </string-array>
+
+    <string-array name="d_17">
+        <item>\"Willow\'s Pugnacious Path\"</item>
+        <item>\"Waltz of the Insanity\'s Breath\"</item>
+        <item>\"Ne\'er-Do-Well Does Well\"</item>
+        <item>\"Escape from the Harrowing Noose"\"</item>
+        <item>\"All Mad Scientists Go To Heaven"\"</item>
+        <item>\"Lose Yourself in the Moment\"</item>
+        <item>\"Wail the Weighed Way Away\"</item>
+        <item>\"Never Mind, Son, We\'ll be Dead Soon\"</item>
+        <item>\"Tony Robbins\' Wailing Flagellation\"</item>
+        <item>\"Swing, Batter!\"</item>
+    </string-array>
+
+    <string-array name="d_18">
+        <item>nuclear reactor</item>
+        <item>coal plant</item>
+        <item>windmill</item>
+        <item>hydrogen base</item>
+        <item>West Coast McDonald\'s deep fryer</item>
+        <item>illegal wood-burning mill</item>
+        <item>solar panel farm</item>
+        <item>oil refinery</item>
+        <item>ethanol plant</item>
+        <item>gasoline giant</item>
+    </string-array>
+
+    <string-array name="d_19">
+        <item>electronic tesla fusion device</item>
+        <item>grandly operatic enhancement widget</item>
+        <item>generalized upgrade chamber</item>
+        <item>sack of high-potential wet paper towels</item>
+        <item>humanoid effigy of success</item>
+        <item>pornographic statue of the Virgin Mary</item>
+        <item>taxidermied mutant squirrel</item>
+        <item>a large set of magic beans</item>
+        <item>dormant thermonuclear fission device</item>
+        <item>promising hedge fund portfolio</item>
+    </string-array>
+
+    <string-array name="d_20">
+        <item>puppies</item>
+        <item>kittens</item>
+        <item>meerkats</item>
+        <item>ducklings</item>
+        <item>piglets</item>
+        <item>lambs</item>
+        <item>ponies</item>
+        <item>furry ferrets</item>
+        <item>furry foxes</item>
+        <item>fluffy hamsters</item>
+    </string-array>
+
+    <string-array name="d_21">
+        <item>abandoned orphans</item>
+        <item>crippled nuns</item>
+        <item>innocent bystanders</item>
+        <item>Mr. Rogers\' friendly ghost friends</item>
+        <item>Bob Ross\' happy trees</item>
+        <item>international aid workers</item>
+        <item>Doctors Without Borders\' staff</item>
+        <item>underpaid grief counselors</item>
+        <item>soup kitchen volunteers</item>
+        <item>soon-to-be saints</item>
+    </string-array>
+
+    <string-array name="d_22">
+        <item>a total mental breakdown</item>
+        <item>an inferiority complex</item>
+        <item>a terrible case of the worries</item>
+        <item>a God complex</item>
+        <item>a bubbling cyst</item>
+        <item>a fear of the existential horrors of being</item>
+        <item>a severe case of major depression</item>
+        <item>a severe case of PTSD</item>
+        <item>a fear of flashing lights</item>
+        <item>a moral imperative</item>
+    </string-array>
+
+    <string-array name="d_23">
+        <item>a foreboding tome</item>
+        <item>an ancient book</item>
+        <item>an old film reel</item>
+        <item>an interactive mystery</item>
+        <item>a meditation guide</item>
+        <item>an old VHS tape</item>
+        <item>a forgotten Rorschach test </item>
+        <item>a piece of modern interpretive art</item>
+        <item>a childhood letter to Santa</item>
+        <item>a relic compact disc</item>
+    </string-array>
+    
+    <string-array name="d_24">
+        <item>\"Zen for Dummies.\"</item>
+        <item>\"God Hates a Spaz.\"</item>
+        <item>\"Love Thy Self Unless Thy Self is an Uptight Potzer.\"</item>
+        <item>\"Calm Down or Hired Goons Will Do It For You.\"</item>
+        <item>\"No Country for Hot Heads.\"</item>
+        <item>\"How to Breathe: The Gil Fishmonger Story.\"</item>
+        <item>\"Daddy Drinks Because You Cry.\"</item>
+        <item>\"Let\'s All Go to the Movies and Forget How Life Really Works.\"</item>
+        <item>\"Shut Your Stupid Face Before Mom Disowns You.\"</item>
+        <item>\"Paranoia and You: A Love Story.\"</item>
+   </string-array>
+
+    <string-array name="d_25">
+        <item>tap</item>
+        <item>jostle</item>
+        <item>wet tongue</item>
+        <item>caress</item>
+        <item>push</item>
+        <item>wisp of breath</item>
+        <item>puff of air</item>
+        <item>slither of moisture</item>
+        <item>tickle</item>
+        <item>prick of your hair</item>
+    </string-array>
+
+    <string-array name="d_26">
+        <item>ear</item>
+        <item>shoulder</item>
+        <item>nose</item>
+        <item>eyes</item>
+        <item>pelvis</item>
+        <item>knees</item>
+        <item>feet</item>
+        <item>toes</item>
+        <item>ankles</item>
+        <item>belly</item>
+    </string-array>
+
+    <string-array name="d_27">
+        <item>a television</item>
+        <item>a radio</item>
+        <item>a sound system</item>
+        <item>a home theatre</item>
+        <item>a projector</item>
+        <item>a music box</item>
+        <item>a jingle generator</item>
+        <item>a pet orotlan</item>
+        <item>a Google Nest</item>
+        <item>an Amazon Echo</item>
+    </string-array>
+
+    <string-array name="d_28">
+        <item>waltz</item>
+        <item>dance</item>
+        <item>love affair</item>
+        <item>song</item>
+        <item>interlude</item>
+        <item>lost moment</item>
+        <item>period of halcyon bliss</item>
+        <item>simpler time</item>
+        <item>vigor of youth</item>
+        <item>wrinkle in time</item>
+    </string-array>
+
+    <string-array name="d_29">
+        <item>gaggle</item>
+        <item>gang</item>
+        <item>litter</item>
+        <item>mob</item>
+        <item>pack</item>
+        <item>team</item>
+        <item>pod</item>
+        <item>colony</item>
+        <item>nest</item>
+        <item>family</item>
+    </string-array>
+
+    <string-array name="d_30">
+        <item>termites</item>
+        <item>bed bugs</item>
+        <item>cockroaches</item>
+        <item>fruit flies</item>
+        <item>rodents</item>
+        <item>lizards</item>
+        <item>crickets</item>
+        <item>beetles</item>
+        <item>wasps</item>
+        <item>hornets</item>
+    </string-array>
+
+    <string-array name="d_31">
+        <item>electricity conduits</item>
+        <item>sentience gel-makers</item>
+        <item>spork cleaning apparatus</item>
+        <item>miniature gimp dungeon</item>
+        <item>gin and tonic chamber</item>
+        <item>calcium mummification box</item>
+        <item>string cheese theory collider</item>
+        <item>religion dampener</item>
+        <item>flesh jackhammer station</item>
+        <item>skin oiling corner</item>
+    </string-array>
+
+    <string-array name="d_32">
+        <item>Pest-o-Matic</item>
+        <item>flambe cooker</item>
+        <item>Acme assault rifle</item>
+        <item>terribly toxic flatulence</item>
+        <item>tears of unfathomable sadness</item>
+        <item>autographed Ken Griffey Jr. baseball bat</item>
+        <item>loud, commanding voice of authority peppered with low grade telekinesis</item>
+        <item>unusually large array of old sneakers</item>
+        <item>knife collection</item>
+        <item>bare, calloused hands</item>
+    </string-array>
+
+    <string-array name="d_33">
+        <item>electricity</item>
+        <item>water</item>
+        <item>internet</item>
+        <item>heating</item>
+        <item>air conditioning</item>
+        <item>trash collection</item>
+        <item>bulky item pickup</item>
+        <item>homeowners association</item>
+        <item>gardener</item>
+        <item>pool upkeep</item>
+    </string-array>
+
+    <string-array name="d_34">
+        <item>mom</item>
+        <item>dad</item>
+        <item>former mother-in-law</item>
+        <item>former father-in-law</item>
+        <item>sister</item>
+        <item>brother</item>
+        <item>aunt</item>
+        <item>uncle</item>
+        <item>first cousin thrice-removed</item>
+        <item>adopted son</item>
+    </string-array>
+
+    <string-array name="d_35">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+        <item>six</item>
+        <item>seven</item>
+        <item>eight</item>
+        <item>nine</item>
+        <item>ten</item>
+    </string-array>
+
+    <string-array name="d_36">
+        <item>Fat Sal</item>
+        <item>Big Louie</item>
+        <item>Plump Paulie</item>
+        <item>Corpulent Carl</item>
+        <item>Jolly Jackson</item>
+        <item>Murdering Murphy</item>
+        <item>Maiming Mike</item>
+        <item>Killer Kyle</item>
+        <item>Ice Picker Ignatius</item>
+        <item>Gobstopper Glenn</item>
+    </string-array>
+
+    <string-array name="d_37">
+        <item>pony </item>
+        <item>horse </item>
+        <item>centaur </item>
+        <item>ostrich </item>
+        <item>camel </item>
+        <item>dog </item>
+        <item>cat </item>
+        <item>rat </item>
+        <item>squirrel </item>
+        <item>turtle </item>
+    </string-array>
+
+    <string-array name="d_38">
+        <item>Mad Mike </item>
+        <item>Loose Louis </item>
+        <item>Bad Bart </item>
+        <item>Conniving Clyde </item>
+        <item>Harried Harry </item>
+        <item>Gross Glenda </item>
+        <item>Puckered Paulie </item>
+        <item>Tuckered Tommy </item>
+        <item>Negative Nancy </item>
+        <item>Exotic Edwin </item>
+    </string-array>
+
+    <string-array name="d_39">
+        <item>Winner </item>
+        <item>Can\'t Lose </item>
+        <item>Always Beats Everyone </item>
+        <item>Faster Than You </item>
+        <item>Zoom Zoom </item>
+        <item>Fights Dirty </item>
+        <item>North Korea Number One </item>
+        <item>Mile High Club </item>
+        <item>Actually Jesus </item>
+        <item>No Country for Slow Men </item>
+    </string-array>
+
+    <string-array name="d_40">
+        <item>Harry Potter sock collection</item>
+        <item>Ren &amp; Stimpy action figures</item>
+        <item>Duncan Sheik toenail collection</item>
+        <item>taxidermied white rhino head</item>
+        <item>extra sharp Lego set</item>
+        <item>collection of ironically framed glasses</item>
+        <item>Elmo doll</item>
+        <item>gilded chastity belt</item>
+        <item>unicorn horn</item>
+        <item>collection of endangered species tails</item>
+    </string-array>
+
+    <string-array name="d_41">
+        <item>anti-aging</item>
+        <item>Extra Strength Tums</item>
+        <item>Prilosec OTC</item>
+        <item>Xanax</item>
+        <item>lithium</item>
+        <item>horse</item>
+        <item>blue</item>
+        <item>red</item>
+        <item>anti-narcolepsy</item>
+        <item>anti-diarrhea</item>
+    </string-array>
+
+    <string-array name="d_42">
+        <item>Hams in a hamlet!</item>
+        <item>Turkeys in a tornado!</item>
+        <item>Bacon in a Bedouin!</item>
+        <item>Beef in a belfry!</item>
+        <item>Spam in a suburb!</item>
+        <item>Giblets in a greenery!</item>
+        <item>Salamander in a stowaway!</item>
+        <item>Poultry in a pancreas!</item>
+        <item>Lambs in a lake!</item>
+        <item>Ducks in a debutante!</item>
+    </string-array>
+
+    <string-array name="d_43">
+        <item>cloaking device</item>
+        <item>Paparazzi shield</item>
+        <item>anonymity enhancement suite</item>
+        <item>disappearing ray</item>
+        <item>electric avoidance device</item>
+        <item>opacity shield printer</item>
+        <item>noise reduction combustor</item>
+        <item>Evil-B-Gone anonymity device</item>
+        <item>vat of camouflagee paint</item>
+        <item>roll of Never-B-Found masking tape</item>
+    </string-array>
+
+    <string-array name="d_44">
+        <item>girl scouts</item>
+        <item>Jehova\'s Witnesses</item>
+        <item>Mormons</item>
+        <item>local city council enthusiasts</item>
+        <item>Christmas carolers</item>
+        <item>year-round trick-or-treaters</item>
+        <item>confused nursing home residents</item>
+        <item>vacuum salesmen</item>
+        <item>Furries</item>
+        <item>Scientologists</item>
+    </string-array>
+
+    <string-array name="d_45">
+        <item>pixie dust</item>
+        <item>white gold</item>
+        <item>happy sniffy stuff</item>
+        <item>liquid joy</item>
+        <item>Snuffleupagus candy</item>
+        <item>snowflake soup</item>
+        <item>party boy elixir</item>
+        <item>hormone syrup</item>
+        <item>swoll juice</item>
+        <item>jacked jello</item>
+    </string-array>
+
+    <string-array name="d_46">
+        <item>the New Mexican desert</item>
+        <item>Mexico City</item>
+        <item>the Brazilian rainforests</item>
+        <item>Medellin City</item>
+        <item>Baltimore</item>
+        <item>Arizona</item>
+        <item>New Jersey\'s Turnpike District</item>
+        <item>The Falafel House on Third</item>
+        <item>Jack\'s Turkey Stand</item>
+        <item>the Washington D.C. underground</item>
+    </string-array>
+
+    <string-array name="d_47">
+        <item>extreme pain</item>
+        <item>extreme panic</item>
+        <item>imaginary marathons</item>
+        <item>hypnosis</item>
+        <item>delusion</item>
+        <item>self-cannibalism</item>
+        <item>hallucinogenic madness</item>
+        <item>denial</item>
+        <item>head banging</item>
+        <item>blasphemous catharsis</item>
+    </string-array>
+
+    <string-array name="d_48">
+        <item>dummy head</item>
+        <item>butt face</item>
+        <item>ugly doofus</item>
+        <item>stupid thing</item>
+        <item>gross scientist</item>
+        <item>wrinkle tush</item>
+        <item>flabby floozy</item>
+        <item>smelly pants</item>
+        <item>yuck monster</item>
+        <item>Weaksoss Magoo</item>
+    </string-array>
+
+    <string-array name="d_49">
+        <item>triangle</item>
+        <item>lute</item>
+        <item>cymbals</item>
+        <item>drum kit</item>
+        <item>guitar</item>
+        <item>bass</item>
+        <item>viola</item>
+        <item>violin</item>
+        <item>trombone</item>
+        <item>harp</item>
+    </string-array>
+
+    <string-array name="d_50">
+        <item>rusty chain</item>
+        <item>old pan</item>
+        <item>roll of barbed wire</item>
+        <item>pair of glass eyes</item>
+        <item>bowel of porridge</item>
+        <item>bucket of offal</item>
+        <item>two mismatched shoes</item>
+        <item>pile of flour</item>
+        <item>a box of crickets</item>
+        <item>three hammers</item>
+    </string-array>
+
+    <string-array name="d_51">
+        <item>cribbage</item>
+        <item>Bridge</item>
+        <item>Hearts</item>
+        <item>Spades</item>
+        <item>baccarat</item>
+        <item>chinese checkers</item>
+        <item>Guess Who?</item>
+        <item>Chutes and Ladders</item>
+        <item>Monopoly</item>
+        <item>gin rummy</item>
+    </string-array>
+
+    <string-array name="d_52">
+        <item>duck hunting</item>
+        <item>window smashing</item>
+        <item>car flipping</item>
+        <item>muckbanging</item>
+        <item>basket weaving</item>
+        <item>clay sculpting</item>
+        <item>truck driving</item>
+        <item>meerkat catching</item>
+        <item>rabbit chasing</item>
+        <item>spelunking</item>
+    </string-array>
+
+    <string-array name="d_53">
+        <item>Johnny Depp</item>
+        <item>Arnold Schwarzenegger</item>
+        <item>Jim Carrey</item>
+        <item>Tom Cruise</item>
+        <item>Keanu Reeves</item>
+        <item>Julia Roberts</item>
+        <item>Emma Watson</item>
+        <item>Cameron Diaz</item>
+        <item>Megan Fox</item>
+        <item>Tina Fey</item>
+    </string-array>
+
+    <string-array name="d_54">
+        <item>Jack Bauer</item>
+        <item>Hugh Jackman</item>
+        <item>Morgan Freeman</item>
+        <item>Liam Neeson</item>
+        <item>Russell Crowe</item>
+        <item>Kate Winslet</item>
+        <item>Natalie Portman</item>
+        <item>Angelina Jolie</item>
+        <item>Scarlett Johansson</item>
+        <item>Jessica Alba</item>
+    </string-array>
+
+    <string-array name="d_55">
+        <item>a bear</item>
+        <item>a walrus</item>
+        <item>an ostrich</item>
+        <item>a hippo</item>
+        <item>a rhino</item>
+        <item>a small whale</item>
+        <item>a king penguin</item>
+        <item>a giraffe</item>
+        <item>a rattlesnake</item>
+        <item>a tiger</item>
+    </string-array>
+
+    <string-array name="d_xx">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="no_sanity">
+        <item>Spaghetti </item>
+        <item>Puffer Fish </item>
+        <item>Shorts </item>
+        <item>Ren\'s Pain </item>
+        <item>Jail Doctor </item>
+        <item>Sparrow</item>
+    </string-array>
+
+    <string-array name="no_sanity_two">
+        <item>Gangnam</item>
+        <item>Mother</item>
+        <item>Father </item>
+        <item>Octopus </item>
+        <item>Pants</item>
+        <item>Shoes</item>
+    </string-array>
+
+    <string-array name="no_sanity_three">
+        <item>Glowering </item>
+        <item>Pandemic Soup</item>
+        <item>Slippery</item>
+        <item>Hungry </item>
+        <item>Clean </item>
+        <item>Shiny</item>
+    </string-array>
+
+    <string-array name="no_sanity_four">
+        <item>Dirty </item>
+        <item>Hot </item>
+        <item>Crunchy </item>
+        <item>Weird </item>
+        <item>Schwifty </item>
+        <item>Running</item>
+    </string-array>
+
+    <string-array name="no_sanity_five">
+        <item>Dancing </item>
+        <item>Singing</item>
+        <item>Crying </item>
+        <item>Bleeding</item>
+        <item>Barking</item>
+        <item>Boorish</item>
+    </string-array>
+
+    <string-array name="no_sanity_quirks">
+        <item>Googly-eyed</item>
+        <item>Shoe wearer</item>
+        <item>Dislikes fedoras</item>
+        <item>Painted red</item>
+        <item>Vegetarian</item>
+        <item>Friend of foxes</item>
+        <item>Flared nostrils</item>
+        <item>User of things</item>
+    </string-array>
+
+    <array name="random_colors">
+        <item>@color/random_1</item>
+        <item>@color/random_2</item>
+        <item>@color/random_3</item>
+        <item>@color/random_4</item>
+        <item>@color/random_5</item>
+        <item>@color/random_6</item>
+        <item>@color/random_7</item>
+        <item>@color/random_8</item>
+        <item>@color/random_9</item>
+        <item>@color/random_10</item>
+    </array>
+
+    <string-array name="end_ranks">
+        <item>Supreme Overlord</item>
+        <item>Pretty Powerful Overlord</item>
+        <item>Keeping Up With the Jones\' Overlord</item>
+        <item>Minor Overlord</item>
+        <item>Fledgling Overlord</item>
+
+        <item>Ruler of All Stuff</item>
+        <item>Ruler of Much Stuff</item>
+        <item>Ruler of a Bit of Stuff</item>
+        <item>Bourgeois McNobleSauce</item>
+        <item>Neo-Baron</item>
+
+        <item>Charlie\'s Supervisor</item>
+        <item>Cubicle Leader</item>
+        <item>Cubicle Drone</item>
+        <item>Party Planning Committee Peon</item>
+        <item>Urban Peon</item>
+
+        <item>Head Vagrant</item>
+        <item>Standard Vagrant</item>
+        <item>Troll Vagrant</item>
+        <item>Garbage Vagrant</item>
+        <item>Satan\'s Plaything</item>
+    </string-array>
+
+    <string-array name="end_ranks_two">
+        <item>Caged Canary</item>
+        <item>Chain Gang, High Rung</item>
+        <item>Chain Gang, Middle Rung</item>
+        <item>Chain Gang, Low Rung</item>
+        <item>Chain Gang, Forgotten Rung</item>
+        <item>Burnt Chain</item>
+    </string-array>
+
+    <string-array name="creature_names">
+        <item> Haiclie </item>
+        <item> Shagriff </item>
+        <item>Caltrei  </item>
+        <item> Yiffounx </item>
+        <item> Ghintoa </item>
+        <item>Cisura  </item>
+        <item> Kotaur </item>
+        <item> Cricehe </item>
+        <item> Fruacora </item>
+        <item> Larbas </item>
+
+        <item> Aklongust  </item>
+        <item>  Haineop </item>
+        <item>  Hyrboam </item>
+        <item> Soletrie  </item>
+        <item>  Ginrgoo </item>
+        <item>  Stuemoth </item>
+        <item> Leitorog  </item>
+        <item>  Ealeni </item>
+        <item>  Jitrya </item>
+        <item>  Gunuz </item>
+
+        <item> Dullaquz  </item>
+        <item> Banho  </item>
+        <item> Gorle  </item>
+        <item> Asuheip  </item>
+        <item>  Tarosqaa </item>
+        <item>  Bibid </item>
+        <item> Caltri  </item>
+        <item>  Unlsoa </item>
+        <item> Gsisio  </item>
+        <item>  Wacand </item>
+
+        <item>   Haiffeff</item>
+        <item>  Bizio </item>
+        <item> Cassaas  </item>
+        <item> Hyinheosnunshe  </item>
+        <item>Arachnaot   </item>
+        <item> Vachi  </item>
+        <item> Phoechnis  </item>
+        <item> Wobpercei  </item>
+        <item> Chodrerm  </item>
+        <item>  Ebra </item>
+
+        <item>  Larou </item>
+        <item>  Wolve </item>
+        <item>  Korpemp </item>
+        <item> Tarasllern  </item>
+        <item> Jikle  </item>
+        <item>  Nuclops </item>
+        <item> Struhorn  </item>
+        <item> Famnshoo  </item>
+        <item> Isine  </item>
+        <item> Theclopf  </item>
+    </string-array>
+
+    <string-array name="relatives_desc">
+        <item>kleptomaniac </item>
+        <item>sociopathic </item>
+        <item>consumptive </item>
+        <item>incarcerated </item>
+        <item>outlaw </item>
+        <item>schizophrenic </item>
+        <item>manic </item>
+        <item>serial killer </item>
+        <item>baby spiking </item>
+        <item>goat buggering </item>
+        <item>jailbird snitching </item>
+        <item>rock eating </item>
+        <item>feral </item>
+        <item>party ruining </item>
+        <item>Karen-loving </item>
+    </string-array>
+
+    <string-array name="relatives">
+        <item>great-aunt </item>
+        <item>great-uncle </item>
+        <item>grandfather </item>
+        <item>grandmother </item>
+        <item>godfather </item>
+        <item>bookie </item>
+        <item>gardener </item>
+        <item>accountant </item>
+        <item>deceased dog </item>
+        <item>deceased cat</item>
+        <item>postman </item>
+        <item>cleaning lady </item>
+        <item>mechanic </item>
+        <item>local barista </item>
+        <item>insurance broker </item>
+    </string-array>
+
+</resources>
