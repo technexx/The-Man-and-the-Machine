@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.2"
 
     defaultConfig {
-        applicationId "technexx.android.ManMachine"
+        applicationId "technexx.android.onlyme"
         minSdkVersion 17
         targetSdkVersion 29
         versionCode 4
