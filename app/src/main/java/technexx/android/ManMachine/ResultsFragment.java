@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.Html;
 import android.text.Spanned;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -322,6 +324,9 @@ public class ResultsFragment extends Fragment {
     private Random random;
     private ArrayList<String> insaneStats;
 
+    private int mPhoneHeight;
+    private int mPhoneWidth;
+
     public interface nextTurnCallback {
         void onNextTurn();
     }
@@ -383,9 +388,24 @@ public class ResultsFragment extends Fragment {
 
     }
 
-    public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstanceState) {
-        root = inflater.inflate(R.layout.results_fragment, container, false);
+    private void setPhoneDimensions() {
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
+        mPhoneHeight = metrics.heightPixels;
+        mPhoneWidth = metrics.widthPixels;
+    }
+
+
+    public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstanceState) {
+
+        setPhoneDimensions();
+
+        if (mPhoneHeight <=1920) {
+            root = inflater.inflate(R.layout.results_fragment, container, false);
+        } else {
+            root = inflater.inflate(R.layout.results_fragment_h1920, container, false);
+        }
         //Moves back to main menu on Android "back" button. Also kills the delay handler.
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override

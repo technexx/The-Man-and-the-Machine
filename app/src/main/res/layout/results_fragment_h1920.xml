@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:scrollbars="vertical"
-    android:theme="@style/ResultsFragmentThemeShortScreen">
+    android:theme="@style/ResultsFragmentThemeTallScreen">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
