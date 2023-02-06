@@ -396,7 +396,6 @@ public class ResultsFragment extends Fragment {
         mPhoneWidth = metrics.widthPixels;
     }
 
-
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstanceState) {
 
         setPhoneDimensions();
@@ -406,6 +405,7 @@ public class ResultsFragment extends Fragment {
         } else {
             root = inflater.inflate(R.layout.results_fragment_h1920, container, false);
         }
+
         //Moves back to main menu on Android "back" button. Also kills the delay handler.
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override

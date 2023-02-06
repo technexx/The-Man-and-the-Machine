@@ -32,5 +32,12 @@
         <item name="android:textSize">18sp</item>
     </style>
 
+    <style name="StoryFragmentShortScreen">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="StoryFragmentTallScreen">
+        <item name="android:textSize">16sp</item>
+    </style>
 
 </resources>

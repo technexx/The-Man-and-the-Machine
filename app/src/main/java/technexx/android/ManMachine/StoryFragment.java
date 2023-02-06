@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.graphics.PorterDuff;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -127,6 +128,9 @@ public class StoryFragment extends Fragment {
     private boolean postUpgradeChosen;
     private boolean postUpgradeDone;
 
+    private int mPhoneHeight;
+    private int mPhoneWidth;
+
     public interface choiceResultCallback {
         void onChoiceResult(boolean alterStats, String newStat, boolean statUp, boolean extra);
     }
@@ -168,10 +172,24 @@ public class StoryFragment extends Fragment {
         }
     }
 
+    private void setPhoneDimensions() {
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        mPhoneHeight = metrics.heightPixels;
+        mPhoneWidth = metrics.widthPixels;
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
 
-        root = inflater.inflate(R.layout.story_fragment, container, false);
+        setPhoneDimensions();
+
+        if (mPhoneHeight <=1920) {
+            root = inflater.inflate(R.layout.story_fragment, container, false);
+        } else {
+            root = inflater.inflate(R.layout.story_fragment_h1920, container, false);
+        }
 
         //Moves back to main menu on Android "back" button.
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
