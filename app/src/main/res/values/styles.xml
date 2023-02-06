@@ -16,6 +16,14 @@
         <item name="android:windowBackground">@drawable/bg13</item>
     </style>
 
+    <style name="SplashFragmentShortScreen">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SplashFragmentTallScreen">
+        <item name="android:textSize">18sp</item>
+    </style>
+
     <style name="StatsFragmentShortScreen">
         <item name="android:textSize">14sp</item>
     </style>

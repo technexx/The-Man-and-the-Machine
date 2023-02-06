@@ -2,6 +2,7 @@ package technexx.android.ManMachine;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,9 @@ public class SplashFragment extends Fragment {
 
     private String[] splashArray;
 
+    private int mPhoneHeight;
+    private int mPhoneWidth;
+
     //Callback to begin the game.
     //Can be used for end game as well.
     public interface OnGameStart {
@@ -35,9 +39,25 @@ public class SplashFragment extends Fragment {
         }
     }
 
+    private void setPhoneDimensions() {
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        mPhoneHeight = metrics.heightPixels;
+        mPhoneWidth = metrics.widthPixels;
+    }
+
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.splash_fragment, container, false);
+        View root;
+
+        setPhoneDimensions();
+
+        if (mPhoneHeight <=1920) {
+            root = inflater.inflate(R.layout.splash_fragment, container, false);
+        } else {
+            root = inflater.inflate(R.layout.splash_fragment_h1920, container, false);
+        }
 
         final Button b1 = root.findViewById(R.id.splash_button);
         final Button b2 = root.findViewById(R.id.splash_start);
