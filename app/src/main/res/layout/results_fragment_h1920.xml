@@ -113,7 +113,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="12dp"
             android:maxWidth="175dp"
-            android:maxHeight="20dp"
             android:text="@string/next_day"
             android:textColor="@color/White"
             app:backgroundTint="@color/transparent"
@@ -123,7 +122,8 @@
             app:layout_constraintTop_toBottomOf="@+id/creature_warning"
             app:rippleColor="#33AAAAAA"
             app:strokeColor="@color/dark_teal"
-            app:strokeWidth="2dp" />
+            app:strokeWidth="2dp"
+            android:textSize="16sp"/>
 
         <Button
             android:id="@+id/backtrack"
@@ -133,7 +133,6 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="16dp"
             android:maxWidth="175dp"
-            android:maxHeight="20dp"
             android:textColor="@color/White"
             app:backgroundTint="@color/transparent"
             app:cornerRadius="1dp"
@@ -142,7 +141,8 @@
             app:layout_constraintTop_toBottomOf="@+id/creature_warning"
             app:rippleColor="#33AAAAAA"
             app:strokeColor="@color/dark_teal"
-            app:strokeWidth="2dp" />
+            app:strokeWidth="2dp"
+            android:textSize="16sp"/>
 
         <TextView
             android:id="@+id/post_burn"
