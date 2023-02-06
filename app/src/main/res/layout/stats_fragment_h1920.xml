@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:layout_editor_absoluteY="50dp"
     android:background="@drawable/test_border_one"
-    android:theme="@style/StatsFragmentShortScreen">
+    android:theme="@style/StatsFragmentTallScreen">
 
     <!--Misalignment of stat numbers due to different spacing between stat names-->
 

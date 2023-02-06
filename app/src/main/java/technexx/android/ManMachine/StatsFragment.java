@@ -4,6 +4,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -72,8 +73,27 @@ public class StatsFragment extends Fragment {
     String manebb3;
     String manEbb4;
 
+    private int mPhoneHeight;
+    private int mPhoneWidth;
+
+    private void setPhoneDimensions() {
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        mPhoneHeight = metrics.heightPixels;
+        mPhoneWidth = metrics.widthPixels;
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        setPhoneDimensions();
+
+        if (mPhoneHeight <=1920) {
+            root = inflater.inflate(R.layout.stats_fragment, container, false);
+        } else {
+            root = inflater.inflate(R.layout.stats_fragment_h1920, container, false);
+        }
 
         root = inflater.inflate(R.layout.stats_fragment, container, false);
 
