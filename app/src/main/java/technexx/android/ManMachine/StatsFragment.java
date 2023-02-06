@@ -95,8 +95,6 @@ public class StatsFragment extends Fragment {
             root = inflater.inflate(R.layout.stats_fragment_h1920, container, false);
         }
 
-        root = inflater.inflate(R.layout.stats_fragment, container, false);
-
         Bundle args = getArguments();
 
         if (args != null) {
