@@ -6,6 +6,7 @@ import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,10 +60,26 @@ public class ScoreResultFragment extends Fragment {
 
     private int position;
 
+    private int mPhoneHeight;
+    private int mPhoneWidth;
+
+    private void setPhoneDimensions() {
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        mPhoneHeight = metrics.heightPixels;
+        mPhoneWidth = metrics.widthPixels;
+    }
 
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstanceState) {
 
-        root = inflater.inflate(R.layout.score_creature_results, container, false);
+        setPhoneDimensions();
+
+        if (mPhoneHeight <=1920) {
+            root = inflater.inflate(R.layout.score_creature_results, container, false);
+        } else {
+            root = inflater.inflate(R.layout.score_creature_results_h1920, container, false);
+        }
 
         final SharedPreferences pref = getContext().getSharedPreferences("SharedPref", 0);
 
@@ -91,7 +108,6 @@ public class ScoreResultFragment extends Fragment {
 
         final TextView summary = root.findViewById(R.id.summary);
 
-
         final TextView strength = root.findViewById(R.id.strength);
         final TextView dexterity = root.findViewById(R.id.dexterity);
         final TextView intelligence = root.findViewById(R.id.intelligence);
@@ -108,7 +124,6 @@ public class ScoreResultFragment extends Fragment {
         final TextView quirk_one = root.findViewById(R.id.quirk_one);
         final TextView quirk_two = root.findViewById(R.id.quirk_two);
         final TextView quirk_three = root.findViewById(R.id.quirk_three);
-
 
         final String[] godStrengthArray = getResources().getStringArray(R.array.creation_strength);
         final String[] godDexterityArray = getResources().getStringArray(R.array.creature_dexterity);
@@ -212,7 +227,6 @@ public class ScoreResultFragment extends Fragment {
     }
 
     public int setColor(int color) {
-//        switch (creationRoll) {
         switch (color) {
             case 0:
                 return getResources().getColor(R.color.Red);

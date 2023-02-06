@@ -3,7 +3,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:theme="@style/HighScoreSummaryShortScreen">
+    android:theme="@style/HighScoreSummaryTallScreen">
 
     <TextView
         android:id="@+id/score_number"

@@ -3,6 +3,7 @@ package technexx.android.ManMachine;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,6 +33,9 @@ public class ScoreMenuFragment extends Fragment implements ScoreListAdapter.scor
     List<ScoresMenu> scoreList;
     scoreCallback mScoreCallback;
 
+    private int mPhoneHeight;
+    private int mPhoneWidth;
+
     public interface scoreCallback {
         void onScoreCallback(int id, boolean passedIsDead);
     }
@@ -53,10 +57,24 @@ public class ScoreMenuFragment extends Fragment implements ScoreListAdapter.scor
         mScoreCallback.onScoreCallback(id, isDead);
     }
 
+    private void setPhoneDimensions() {
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        mPhoneHeight = metrics.heightPixels;
+        mPhoneWidth = metrics.widthPixels;
+    }
+
     //Populating the list of high score entries.
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstanceState) {
-        root = inflater.inflate(R.layout.high_score_list, container, false);
 
+        setPhoneDimensions();
+
+        if (mPhoneHeight <=1920) {
+            root = inflater.inflate(R.layout.high_score_list, container, false);
+        } else {
+            root = inflater.inflate(R.layout.high_score_list, container, false);
+        }
 
         HighScoresDB scoresDB = HighScoresDB.getDatabase(getContext());
         scoreList = scoresDB.highScoresDao().sortedScoreList();

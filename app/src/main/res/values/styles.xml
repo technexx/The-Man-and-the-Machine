@@ -48,4 +48,20 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="HighScoreListShortScreen">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HighScoreListTallScreen">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HighScoreSummaryShortScreen">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HighScoreSummaryTallScreen">
+        <item name="android:textSize">18sp</item>
+    </style>
+
 </resources>

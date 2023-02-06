@@ -51,8 +51,6 @@ public class ScoreResultCombo extends AppCompatActivity {
         int position = intent.getIntExtra("position", 0);
         boolean isDead = intent.getBooleanExtra("isDead", false);
 
-
-
         FragmentManager fragmentManager = getSupportFragmentManager();
         ScoreFragment scoreFragment = new ScoreFragment();
         ScoreResultFragment scoreResultFragment = new ScoreResultFragment();

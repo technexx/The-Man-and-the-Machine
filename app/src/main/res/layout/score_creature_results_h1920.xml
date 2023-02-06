@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/HighScoreSummaryTallScreen">
+
+        <TextView
+            android:id="@+id/creature_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/creature_stats"/>
+
+        <TextView
+            android:id="@+id/dexterity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/strength" />
+
+        <TextView
+            android:id="@+id/intelligence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dexterity" />
+
+        <TextView
+            android:id="@+id/loyalty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intelligence" />
+
+        <TextView
+            android:id="@+id/beauty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loyalty" />
+
+        <TextView
+            android:id="@+id/resultOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/creature_stats"/>
+
+        <TextView
+            android:id="@+id/resultTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resultOne" />
+
+        <TextView
+            android:id="@+id/resultThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resultTwo" />
+
+        <TextView
+            android:id="@+id/resultFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resultThree" />
+
+        <TextView
+            android:id="@+id/resultFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resultFour"/>
+
+        <TextView
+            android:id="@+id/quirks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beauty"
+            />
+
+        <TextView
+            android:id="@+id/quirk_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beauty" />
+
+        <TextView
+            android:id="@+id/quirk_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quirk_one" />
+
+        <TextView
+            android:id="@+id/quirk_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="190dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quirk_two" />
+
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/quirk_three"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingTop="32dp"
+            android:paddingBottom="32dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="12dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/strScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/summary"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/strength">
+        </TextView>
+
+        <TextView
+            android:id="@+id/dexScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/strScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/dexterity">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/dexScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/intelligence">
+        </TextView>
+
+        <TextView
+            android:id="@+id/obedScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/intScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/loyalty">
+        </TextView>
+
+        <TextView
+            android:id="@+id/beaScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/obedScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/beauty">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sanScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/beaScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/sanity">
+        </TextView>
+
+        <TextView
+            android:id="@+id/endScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/sanScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/endurance">
+        </TextView>
+
+        <TextView
+            android:id="@+id/wealthScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/endScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/wealth">
+        </TextView>
+
+        <TextView
+            android:id="@+id/anonScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/wealthScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/anonymity">
+        </TextView>
+
+        <TextView
+            android:id="@+id/launchSuccess"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/anonScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/launch_success">
+        </TextView>
+
+        <TextView
+            android:id="@+id/terScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/launchSuccess"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/end_territory">
+        </TextView>
+
+        <TextView
+            android:id="@+id/supScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/terScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/end_support">
+        </TextView>
+
+        <TextView
+            android:id="@+id/endSceneScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/supScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/home">
+        </TextView>
+
+        <TextView
+            android:id="@+id/totalScore"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/endSceneScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/total_score">
+        </TextView>
+
+        <TextView
+            android:id="@+id/end_rank"
+            android:paddingTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/totalScore"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/final_rank">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/result_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/summary"
+            android:layout_marginEnd="8dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_dex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_str"
+            android:layout_marginEnd="8dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_int"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_dex">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_obed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_int"
+            android:layout_marginEnd="8dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_bea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_obed">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_san"
+            android:layout_marginStart="230dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_bea">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_san"
+            android:layout_marginEnd="8dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_wealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_end">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_anon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_wealth">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_launch"
+            android:layout_marginStart="230dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_anon">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_strTake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_launch">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_dexTake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_strTake">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_endScene"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_dexTake">
+        </TextView>
+
+        <TextView
+            android:id="@+id/result_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_endScene">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rank_score"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/result_total">
+        </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
